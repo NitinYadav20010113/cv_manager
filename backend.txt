@@ -1,0 +1,51 @@
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from .models import Resume
+import json
+
+
+# THIS HANDLE FILE AND PARSE , THEN RETURN ITS JSON DATA 
+@csrf_exempt
+def upload_resume(request):
+    if request.method == "POST" and request.FILES.get("resume"):
+        resume_file = request.FILES["resume"]
+
+        # Simulated parsing logic - Replace with real parser
+        parsed_data = parser(resume_file)
+
+        return JsonResponse({"success": True, "data": parsed_data})
+
+    return JsonResponse({"success": False, "error": "No resume uploaded"})
+
+
+# SAVE DETIALS TO DATABASE AFTER DISPLAY
+
+@csrf_exempt
+def save_resume(request):
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body)
+
+            # ENTRY CODE FOR DATABASE
+              .....
+
+
+
+              ....
+
+
+            return JsonResponse({"success": True})
+        except Exception as e:
+            return JsonResponse({"success": False, "error": str(e)})
+
+    return JsonResponse({"success": False, "error": "Invalid request"})
+
+
+# ADD THESE URLS TO YOUR PROJECT 
+
+
+
+urlpatterns = [
+    path("api/upload_resume/", views.upload_resume, name="upload_resume"),
+    path("api/save_resume/", views.save_resume, name="save_resume"),
+]

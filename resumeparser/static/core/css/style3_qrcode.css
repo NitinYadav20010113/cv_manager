@@ -1,0 +1,68 @@
+body {
+	background-image: url("/static/images/kamran.jpg");
+    width: 98vw;
+    height: 98vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+#file {
+    margin-top: 2vh;
+    /* background-color: cyan; */
+    margin-left: 11vw;
+    width: 25vw;
+    height: 20vh;
+    margin-bottom: 0vh;
+    padding-bottom: 0vh;
+}
+#file2{
+    margin-top: 4vh;
+    margin-left: 35vw;
+    /* margin-right: 5vwvw; */
+    height: 20vh;
+    margin-bottom: 5vh;
+    padding-bottom: 0vh;
+
+}
+p{
+    color: rgb(78, 98, 189);
+    
+}
+
+#recent_dir {
+    overflow-y: scroll;
+    
+    min-height: 0em;
+    max-height: 13em;
+    display: block;
+    margin-left: 3em;
+    width: 17em;    
+}
+
+#recent_upload {
+    /* margin-left: -23em; */
+    overflow-y: scroll;
+    
+    min-height: 0vh;
+    height: 45vh;
+    width: 20em;
+}
+#list_item1{
+    font-size: 1.5em;
+    color: brown;
+}
+
+
+table{
+
+    min-height: 20vh;
+    max-height: none;
+    margin-left: -17em;
+}
+
+.infra{
+    height: 15em;
+}
+#selectfol{
+	margin-top:0px;	
+}

@@ -1,0 +1,30 @@
+body {
+    background-image: url("kamran.jpg");
+}
+
+.input {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+button {
+    
+    align-content: center;
+    text-align: center;    
+    margin-left: 25vw;
+    width: 10vw;
+}
+table {
+    border-collapse: collapse;
+    padding: 20px;
+    margin-left: 28vw;
+    width: 50vw;
+}
+th {
+    color: #6c6f93;
+}
+
+#loading {
+    color: whitesmoke;
+}

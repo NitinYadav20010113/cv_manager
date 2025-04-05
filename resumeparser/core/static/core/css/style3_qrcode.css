@@ -1,0 +1,62 @@
+/* body {
+    background-image: url("kamran.jpg");
+}
+
+#file {
+    
+    margin-left: 15vw;
+    width: 25vw;
+}
+#file2{
+    margin-left: 25vw;
+    margin-right: 10vw;
+}
+p{
+    color: rgb(179, 50, 230);
+    
+} */
+body {
+    background-image: url("kamran.jpg");
+    width: 98vw;
+    height: 98vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+#file {
+    margin-top: 4vh;
+    /* background-color: cyan; */
+    margin-left: 11vw;
+    width: 25vw;
+    height: 20vh;
+    margin-bottom: 0vh;
+    padding-bottom: 0vh;
+}
+#file2{
+    margin-top: 4vh;
+    margin-left: 35vw;
+    /* margin-right: 5vwvw; */
+    height: 20vh;
+    margin-bottom: 5vh;
+    padding-bottom: 0vh;
+
+}
+p{
+    color: rgb(78, 98, 189);
+    
+}
+
+#recent_files {
+    margin-top: 5vh;
+    margin-left: 65vw;
+    width: 25vw;
+}
+#recent_upload {
+    overflow-y: scroll;
+    min-height: 0vh;
+    max-height: 40vh;
+    width: 25vw;
+}
+h2 {
+    padding-left: 2vw;
+}

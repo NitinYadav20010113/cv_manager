@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Upload Resume</title>
+  <link rel="stylesheet" href="upload.css" />
+</head>
+<body>
+  <div class="upload-container">
+    <div class="upload-box">
+      <h1>Upload Your Resume</h1>
+      <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="resume-file" name="resume" accept=".pdf,.doc,.docx" required />
+        <button type="submit">Upload & Parse</button>
+      </form>
+      <div id="loader" class="loader-wrapper" style="display: none;">
+        <div class="loader"></div>
+        <p>Parsing your resume, please wait...</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

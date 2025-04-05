@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- SweetAlert2 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="resume-heading">AI Based CV Details</h1>
+    <div id="basic-details" class="section">
+        <h2 class="section-title">Basic Details</h2>
+        <div class="two-column">
+          <div class="col">
+            <p><strong>Full Name:</strong> <span id="full-name"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Phone:</strong> <span id="phone"></span></p>
+            <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+            <p><strong>Gender:</strong> <span id="gender"></span></p>
+            
+          </div>
+          <div class="col">
+            <p><strong>Aadhar Number:</strong> <span id="aadhar_number"></span></p>
+            <p><strong>PAN Number:</strong> <span id="pan_number"></span></p>
+            <p><strong>LinkedIn:</strong> <a id="linkedin" href="#" target="_blank">Profile</a></p>
+            <p><strong>Nationality:</strong> <span id="nationality"></span></p>
+          </div>
+        </div>
+      </div>
+      
+      
+    <section class="section">
+      <h2 class="section-title">Address</h2>
+      <p><span id="address-line1"></span></p>
+      <p><span id="address-line2"></span></p>
+      <p><span id="address-city-state-zip"></span></p>
+      <p><span id="address-country"></span></p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+      <table id="education-table">
+        <thead>
+          <tr>
+            <th>Qualification</th>
+            <th>Degree</th>
+            <th>Subject</th>
+            <th>Specialization</th>
+            <th>Passing Year</th>
+            <th>Mode of Study</th>
+            <th>Institute</th>
+            <th>University/Board</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title"> Work Experience</h2>
+      <table id="experience-table">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Designation</th>
+            <th>Duration</th>
+            <th>Total Experience</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Projects</h2>
+      <table id="projects-table">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Duration</th>
+            <th>Company</th>
+            <th>Project Name</th>
+            <th>Designation</th>
+            <th>Client</th>
+            <th>Funding Agency</th>
+            <th>Sectors</th>
+            <th>Phases</th>
+            <th>Length</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <div>
+        <h3 class="section-title">Industry</h3>
+        <p id="industry"></p>
+        <h3 class="section-title">Sectors</h3>
+        <p id="sectors"></p>
+        <h3 class="section-title">Phases</h3>
+        <p id="phases"></p>
+        <h3 class="section-title">Keywords</h3>
+        <p id="keywords"></p>
+      </div>
+    </section>
+
+    <div style="text-align: right; margin-top: 40px;">
+      <button id="save-btn" style="padding: 10px 20px;">💾 Save to Database</button>
+    </div>
+  </div>
+  
+  
+  <!-- Move script tag here -->
+  <script src="script.js"></script>
+</body>
+
+</html>

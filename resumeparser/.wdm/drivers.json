@@ -1,0 +1,6 @@
+{
+    "linux64_geckodriver_latest_for_117.0": {
+        "timestamp": "03/09/2023",
+        "binary_path": "/home/cvm/public_html/django/eproc/.wdm/drivers/geckodriver/linux64/v0.33.0/geckodriver"
+    }
+}

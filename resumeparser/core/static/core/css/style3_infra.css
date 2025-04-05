@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+div.row {
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 300px;
+    background-image: url("kamran.jpg");
+    height: 100vh;
+    margin-right: 0px;
+    width: 100vw;    
+}
+.infra {
+    padding-top: 30px;
+    padding-left: 100px;
+    position: relative; 
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    align-items: right;
+    /* justify-content: center; */
+}
+.infra::before {    
+      content: "";
+      background-image: url('pexels.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      bottom: 10px;
+      left: 30px;
+      opacity: 1;
+}
+#progress_div {
+    padding-right: 20px;
+    width: 30vw;
+} 
+#progress_div1 {
+    width: 30vw;
+    padding-right: 20px;
+}
+div.message1 {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+#file_name_value {
+    vertical-align: middle;
+    font-size: 10px;
+}
+table {       
+    margin-top: 5px;
+    /* font-size: 5vw;    */
+} 
+
+label.heading1 {
+    
+    color: rgb(30, 11, 204);
+    font-size: 50px;
+}
+#file {
+    width: 23vw;
+}
+
+div.time1 {
+    padding-right: 20px;      
+}

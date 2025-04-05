@@ -1,0 +1,1274 @@
+2025-04-01 11:59:54 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf------------------------------------
+
+
+2025-04-01 12:17:46 - ISTLogger_model_logger - INFO - The model returned empty data <Response [500]>
+
+
+2025-04-01 12:25:51 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf------------------------------------
+
+
+2025-04-01 12:26:25 - ISTLogger_model_logger - INFO - The model returned empty data <Response [503]>
+
+
+2025-04-01 12:29:14 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf------------------------------------
+
+
+2025-04-01 12:29:23 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 12:29:40 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+ValueError: substring not found
+2025-04-01 12:41:35 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf------------------------------------
+
+
+2025-04-01 12:52:39 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 12:52:39 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+ValueError: substring not found
+2025-04-01 12:53:10 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc------------------------------------
+
+
+2025-04-01 12:54:02 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 12:57:20 - ISTLogger_model_logger - INFO - The text from the model is {    "full_name": "",    "languages": {        "Speaking": "Excellent",        "Reading": "Excellent",        "Writing": "Excellent",        "English": "Excellent",        "Hindi": "Excellent"    },    "education": [],    "experience": [        ["Role", "Company", "Dates"],        ["Highway Engineer", "Patel Engineering Ltd., Mumbai", "Jan 2001 to June 2002"],        ["Site Engineer", "BSC Pvt. Ltd., Hyderabad", "June 2000 to Dec 2000"],        ["Highway Engineer", "NHAI", "Jan 2001 to June 2002"],        ["Project: Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2)", "Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore"],        ["Project: Construction for Strengthening and Widening of existing road to 4-laning of NH-2 from km 474.000 (Raniganj) to km 515.236 (Panagarh) in the state of West Bengal; Client: NHAI; Total length: 41 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 250 Crore"],        ["Project: Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore"],        ["Highway Engineer", "Patel Engineering Ltd., Mumbai", "Jan 2001 to June 2002"],        ["Site Engineer", "BSC Pvt. Ltd., Hyderabad", "June 2000 to Dec 2000"]    ],    "projects": [        {            "Project 1": {                "Role": "",                "Company": "",                "Dates": ""            }        },        {            "Project 2": {                "Role": "",                "Company": "",                "Dates": ""            }        }    ]}
+2025-04-01 12:57:20 - ISTLogger_model_logger - INFO - The data from the model is {'full_name': '', 'languages': {'Speaking': 'Excellent', 'Reading': 'Excellent', 'Writing': 'Excellent', 'English': 'Excellent', 'Hindi': 'Excellent'}, 'education': [], 'experience': [['Role', 'Company', 'Dates'], ['Highway Engineer', 'Patel Engineering Ltd., Mumbai', 'Jan 2001 to June 2002'], ['Site Engineer', 'BSC Pvt. Ltd., Hyderabad', 'June 2000 to Dec 2000'], ['Highway Engineer', 'NHAI', 'Jan 2001 to June 2002'], ['Project: Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2)', 'Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore'], ['Project: Construction for Strengthening and Widening of existing road to 4-laning of NH-2 from km 474.000 (Raniganj) to km 515.236 (Panagarh) in the state of West Bengal; Client: NHAI; Total length: 41 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 250 Crore'], ['Project: Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore'], ['Highway Engineer', 'Patel Engineering Ltd., Mumbai', 'Jan 2001 to June 2002'], ['Site Engineer', 'BSC Pvt. Ltd., Hyderabad', 'June 2000 to Dec 2000']], 'projects': [{'Project 1': {'Role': '', 'Company': '', 'Dates': ''}}, {'Project 2': {'Role': '', 'Company': '', 'Dates': ''}}]}
+2025-04-01 12:57:20 - ISTLogger_model_logger - ERROR - error in the loop of the model experience
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 66, in model_data
+    if experience[2]!='':
+IndexError: list index out of range
+2025-04-01 12:57:20 - ISTLogger_model_logger - ERROR - error in the loop of the model experience
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 64, in model_data
+    dic['COMPANY']=experience[1]
+IndexError: list index out of range
+2025-04-01 12:57:20 - ISTLogger_model_logger - ERROR - error in the loop of the model experience
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 64, in model_data
+    dic['COMPANY']=experience[1]
+IndexError: list index out of range
+2025-04-01 12:57:20 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'full_name': '', 'languages': {'Speaking': 'Excellent', 'Reading': 'Excellent', 'Writing': 'Excellent', 'English': 'Excellent', 'Hindi': 'Excellent'}, 'education': [], 'experience': [['Role', 'Company', 'Dates'], ['Highway Engineer', 'Patel Engineering Ltd., Mumbai', 'Jan 2001 to June 2002'], ['Site Engineer', 'BSC Pvt. Ltd., Hyderabad', 'June 2000 to Dec 2000'], ['Highway Engineer', 'NHAI', 'Jan 2001 to June 2002'], ['Project: Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2)', 'Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore'], ['Project: Construction for Strengthening and Widening of existing road to 4-laning of NH-2 from km 474.000 (Raniganj) to km 515.236 (Panagarh) in the state of West Bengal; Client: NHAI; Total length: 41 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 250 Crore'], ['Project: Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore'], ['Highway Engineer', 'Patel Engineering Ltd., Mumbai', 'Jan 2001 to June 2002'], ['Site Engineer', 'BSC Pvt. Ltd., Hyderabad', 'June 2000 to Dec 2000']], 'projects': [{'Project 1': {'Role': '', 'Company': '', 'Dates': ''}}, {'Project 2': {'Role': '', 'Company': '', 'Dates': ''}}], 'company_data': [{'COMPANY': 'Company', 'DESIGNATION': 'Role', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'Patel Engineering Ltd., Mumbai', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '2001-01-01', 'TO DATE': '2002-06-01'}, {'COMPANY': 'BSC Pvt. Ltd., Hyderabad', 'DESIGNATION': 'Site Engineer', 'FROM DATE': '2000-06-01', 'TO DATE': '2000-12-01'}, {'COMPANY': 'NHAI', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '2001-01-01', 'TO DATE': '2002-06-01'}, {'COMPANY': 'Patel Engineering Ltd., Mumbai', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '2001-01-01', 'TO DATE': '2002-06-01'}, {'COMPANY': 'BSC Pvt. Ltd., Hyderabad', 'DESIGNATION': 'Site Engineer', 'FROM DATE': '2000-06-01', 'TO DATE': '2000-12-01'}]}
+
+
+2025-04-01 14:47:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 14:48:27 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 14:49:05 - ISTLogger_model_logger - INFO - The text from the model is {    "full_name": "John Doe",    "education": [        ["Degree", "University", "Year","Grade"],        ["B.Tech Civil Engineering", "VIT University", "2015-2019"]    ],    "experience": [        ["Senior QA/QC Expert", "JICA Consultancy Services India Pvt. Ltd.", "2022 - Present"],        ["Quality Assurance Consultant", "Global Construction Solutions", "2018 - 2022"]    ],    "projects": [        {            "project_name": "Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA.",            "client": {                "company_name": "NHIDCL",                "funded_by": "JICA"            },            "project_type": "Rigid Pavements",            "project_duration": "August 2022 - Present",            "role": ["Senior QA/QC Expert"],            "responsibilities": [                "Reviewing Concessionaire’s work programs and performance of plant, equipment and machinery.",                "Reviewing test results of Concrete work of M-15 to M-70 and Well foundation and Pile Foundation and Lower/Upper pylon pillar’s and other materials i.e., Cement OPC 53 Grade: Dalmia, Amrit, Star, Ultratech, Ramco, JK Super, Retarder Ad mixture: Fosroc Auramix 500, SIKA Sikaplast 424 PR, Fosroc Auracast 270M, Sika ViscoCrete 774 HE, Asian Paints Ltd. - SC Maximoplast PC 300, Sika Plastiment VZ1, Fosroc Conplast R, Flyash: Ultrafine flyash, Micro-silica /Silica Fume, Polymer, Cementitious Grout, Sonic Pipe, Reinforcement steel different companies, DSI-Bridgecon Stay cable works, Lead Rubber bearing, Spherical bearing, Post Tensioning works, HT stand, HDPE Duct, Expanding grout admixture, Wax Based curing compound, Epoxy Adhesive, Mould Releasing agent, Curing Compound, Aggregates and other site tests i.e. Cross Hole Sonic Logging – CHSL is used to detect defects in concrete structures and in other solid structures, High Stain Dynamic Load Testing (HSDLT) of piles, Load tests, Pile Integrity Test (PIT) and Geocell Reinforcement in Sub-base/Base quarry and borrow area material to ascertain their strength and suitability for use on the project; Inspect Installation of material testing lab and supervise the setting up of the various rock crushers and bituminous mixing plants, setting up the laboratories to ensure adequacy of equipment and capability to perform all the specified testing requirements of the control; Review/Implementation of Quality Assurance Plan of Concessionaire; Co-ordination with various agencies for pre-construction activities. Latest quality management techniques using modern technology was practiced and Modern Construction Techniques and Methodologies were being adopted in the project using the latest equipment with best international practice. Also responsible for checking material property in accordance with technical specifications.",                "Skills": [                    "Concrete testing",                    "Quality assurance",                    "Project management"                ]            }        }    ],    "skills": ["Concrete testing", "Quality assurance", "Project management"]}
+2025-04-01 14:51:30 - ISTLogger_model_logger - ERROR - unable to get the data from the model text the text is{    "full_name": "John Doe",    "education": [        ["Degree", "University", "Year","Grade"],        ["B.Tech Civil Engineering", "VIT University", "2015-2019"]    ],    "experience": [        ["Senior QA/QC Expert", "JICA Consultancy Services India Pvt. Ltd.", "2022 - Present"],        ["Quality Assurance Consultant", "Global Construction Solutions", "2018 - 2022"]    ],    "projects": [        {            "project_name": "Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA.",            "client": {                "company_name": "NHIDCL",                "funded_by": "JICA"            },            "project_type": "Rigid Pavements",            "project_duration": "August 2022 - Present",            "role": ["Senior QA/QC Expert"],            "responsibilities": [                "Reviewing Concessionaire’s work programs and performance of plant, equipment and machinery.",                "Reviewing test results of Concrete work of M-15 to M-70 and Well foundation and Pile Foundation and Lower/Upper pylon pillar’s and other materials i.e., Cement OPC 53 Grade: Dalmia, Amrit, Star, Ultratech, Ramco, JK Super, Retarder Ad mixture: Fosroc Auramix 500, SIKA Sikaplast 424 PR, Fosroc Auracast 270M, Sika ViscoCrete 774 HE, Asian Paints Ltd. - SC Maximoplast PC 300, Sika Plastiment VZ1, Fosroc Conplast R, Flyash: Ultrafine flyash, Micro-silica /Silica Fume, Polymer, Cementitious Grout, Sonic Pipe, Reinforcement steel different companies, DSI-Bridgecon Stay cable works, Lead Rubber bearing, Spherical bearing, Post Tensioning works, HT stand, HDPE Duct, Expanding grout admixture, Wax Based curing compound, Epoxy Adhesive, Mould Releasing agent, Curing Compound, Aggregates and other site tests i.e. Cross Hole Sonic Logging – CHSL is used to detect defects in concrete structures and in other solid structures, High Stain Dynamic Load Testing (HSDLT) of piles, Load tests, Pile Integrity Test (PIT) and Geocell Reinforcement in Sub-base/Base quarry and borrow area material to ascertain their strength and suitability for use on the project; Inspect Installation of material testing lab and supervise the setting up of the various rock crushers and bituminous mixing plants, setting up the laboratories to ensure adequacy of equipment and capability to perform all the specified testing requirements of the control; Review/Implementation of Quality Assurance Plan of Concessionaire; Co-ordination with various agencies for pre-construction activities. Latest quality management techniques using modern technology was practiced and Modern Construction Techniques and Methodologies were being adopted in the project using the latest equipment with best international practice. Also responsible for checking material property in accordance with technical specifications.",                "Skills": [                    "Concrete testing",                    "Quality assurance",                    "Project management"                ]            }        }    ],    "skills": ["Concrete testing", "Quality assurance", "Project management"]}
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 34, in model_data
+    data = ast.literal_eval(text)
+  File "/usr/lib/python3.8/ast.py", line 59, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/usr/lib/python3.8/ast.py", line 47, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    {    "full_name": "John Doe",    "education": [        ["Degree", "University", "Year","Grade"],        ["B.Tech Civil Engineering", "VIT University", "2015-2019"]    ],    "experience": [        ["Senior QA/QC Expert", "JICA Consultancy Services India Pvt. Ltd.", "2022 - Present"],        ["Quality Assurance Consultant", "Global Construction Solutions", "2018 - 2022"]    ],    "projects": [        {            "project_name": "Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA.",            "client": {                "company_name": "NHIDCL",                "funded_by": "JICA"            },            "project_type": "Rigid Pavements",            "project_duration": "August 2022 - Present",            "role": ["Senior QA/QC Expert"],            "responsibilities": [                "Reviewing Concessionaire’s work programs and performance of plant, equipment and machinery.",                "Reviewing test results of Concrete work of M-15 to M-70 and Well foundation and Pile Foundation and Lower/Upper pylon pillar’s and other materials i.e., Cement OPC 53 Grade: Dalmia, Amrit, Star, Ultratech, Ramco, JK Super, Retarder Ad mixture: Fosroc Auramix 500, SIKA Sikaplast 424 PR, Fosroc Auracast 270M, Sika ViscoCrete 774 HE, Asian Paints Ltd. - SC Maximoplast PC 300, Sika Plastiment VZ1, Fosroc Conplast R, Flyash: Ultrafine flyash, Micro-silica /Silica Fume, Polymer, Cementitious Grout, Sonic Pipe, Reinforcement steel different companies, DSI-Bridgecon Stay cable works, Lead Rubber bearing, Spherical bearing, Post Tensioning works, HT stand, HDPE Duct, Expanding grout admixture, Wax Based curing compound, Epoxy Adhesive, Mould Releasing agent, Curing Compound, Aggregates and other site tests i.e. Cross Hole Sonic Logging – CHSL is used to detect defects in concrete structures and in other solid structures, High Stain Dynamic Load Testing (HSDLT) of piles, Load tests, Pile Integrity Test (PIT) and Geocell Reinforcement in Sub-base/Base quarry and borrow area material to ascertain their strength and suitability for use on the project; Inspect Installation of material testing lab and supervise the setting up of the various rock crushers and bituminous mixing plants, setting up the laboratories to ensure adequacy of equipment and capability to perform all the specified testing requirements of the control; Review/Implementation of Quality Assurance Plan of Concessionaire; Co-ordination with various agencies for pre-construction activities. Latest quality management techniques using modern technology was practiced and Modern Construction Techniques and Methodologies were being adopted in the project using the latest equipment with best international practice. Also responsible for checking material property in accordance with technical specifications.",                "Skills": [                    "Concrete testing",                    "Quality assurance",                    "Project management"                ]            }        }    ],    "skills": ["Concrete testing", "Quality assurance", "Project management"]}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+SyntaxError: invalid syntax
+2025-04-01 14:56:13 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc------------------------------------
+
+
+2025-04-01 14:57:49 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 15:02:14 - ISTLogger_model_logger - INFO - The text from the model is {    "full_name": "Prashant B. Gajjar",    "education": [],    "experience": [        {            "Role": "Highway Engineer",            "Company": "Patel Engineering Ltd., Mumbai",            "Dates": "Jan 2001 to June 2002"        },        {            "Role": "Site Engineer",            "Company": "BSC Pvt. Ltd., Hyderabad",            "Dates": "June 2000 to Dec 2000"        },        {            "Role": "Highway Engineer",            "Company": "Patel Engineering Ltd., Mumbai",            "Dates": "Jan 2001 to June 2002"        },        {            "Role": "Highway Engineer",            "Company": "Patel Engineering Ltd., Mumbai",            "Dates": "Jan 2001 to June 2002"        },        {            "Role": "Highway Engineer",            "Company": "Patel Engineering Ltd., Mumbai",            "Dates": "Jan 2001 to June 2002"        },        {            "Role": "Highway Engineer",            "Company": "BSC Pvt. Ltd., Hyderabad",            "Dates": "June 2000 to Dec 2000"        }    ],    "projects": [        {            "Project": "Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore",            "Project": "Construction for Strengthening and Widening of existing road to 4-laning of NH-2 from km 474.000 (Raniganj) to km 515.236 (Panagarh) in the state of West Bengal; Client: NHAI; Total length: 41 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 250 Crore",            "Project": "Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore",            "Project": "Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore",            "Project": "Construction for Strengthening and Widening of existing road to 4-laning of NH-2 from km 474.000 (Raniganj) to km 515.236 (Panagarh) in the state of West Bengal; Client: NHAI; Total length: 41 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 250 Crore",            "Project": "Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore",            "Project": "Construction for Strengthening and Widening of existing road to 4-laning of NH-2 from km 474.000 (Raniganj) to km 515.236 (Panagarh) in the state of West Bengal; Client: NHAI; Total length: 41 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 250 Crore",            "Project": "Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore"        }    ],    "language": "",    "skills": "",    "certifications": ""}
+2025-04-01 15:02:14 - ISTLogger_model_logger - INFO - The data from the model is {'full_name': 'Prashant B. Gajjar', 'education': [], 'experience': [{'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Site Engineer', 'Company': 'BSC Pvt. Ltd., Hyderabad', 'Dates': 'June 2000 to Dec 2000'}, {'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Highway Engineer', 'Company': 'BSC Pvt. Ltd., Hyderabad', 'Dates': 'June 2000 to Dec 2000'}], 'projects': [{'Project': 'Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore'}], 'language': '', 'skills': '', 'certifications': ''}
+2025-04-01 15:02:14 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'full_name': 'Prashant B. Gajjar', 'education': [], 'experience': [{'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Site Engineer', 'Company': 'BSC Pvt. Ltd., Hyderabad', 'Dates': 'June 2000 to Dec 2000'}, {'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Highway Engineer', 'Company': 'Patel Engineering Ltd., Mumbai', 'Dates': 'Jan 2001 to June 2002'}, {'Role': 'Highway Engineer', 'Company': 'BSC Pvt. Ltd., Hyderabad', 'Dates': 'June 2000 to Dec 2000'}], 'projects': [{'Project': 'Construction for Rehabilitation and Up-gradation of Surat-Manor Tollway project of NH-8 (Package-2) from km 343.000 to km 381.600 in the State of Gujarat (Vapi); Client: NHAI;Total length: 38.6 km; Lane: 4; Funded by: ADB (FIDIC conditions of contract); Project Cost: INR 205 Crore'}], 'language': '', 'skills': '', 'certifications': '', 'First_Name': 'Prashant', 'Middle_Name': 'B.', 'Last_Name': 'Gajjar', 'company_data': [{'COMPANY': 'Patel Engineering Ltd., Mumbai', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'BSC Pvt. Ltd., Hyderabad', 'DESIGNATION': 'Site Engineer', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'Patel Engineering Ltd., Mumbai', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'Patel Engineering Ltd., Mumbai', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'Patel Engineering Ltd., Mumbai', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'BSC Pvt. Ltd., Hyderabad', 'DESIGNATION': 'Highway Engineer', 'FROM DATE': '', 'TO DATE': ''}]}
+
+
+2025-04-01 15:03:22 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf------------------------------------
+
+
+2025-04-01 15:03:54 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 15:03:54 - ISTLogger_model_logger - INFO - The text from the model is {    "full_name": "AKSHAT SONI",    "education": [        ["Exam/ Courses", "Name of the Awarding Body", "Year of Passing", "CGPA/Marks", "Qualifications"],        ["Under- B.A. LL.B.", "Manipal", "2022", "7.14 out of 10", "University"],        ["graduation (HONS.)", "University Jaipur", "", "", ""],        ["12th COMMERCE", "Bhanwarlal CBSE", "2016", "54%", "Gothi Public Sr. School, Beawar"],        ["10th CBSE", "Bhanwarlal CBSE", "2014", "04.4/10", ""]    ],    "experience": [        ["Role", "Company", "Dates"],        ["Senior Legal Executive/Senior Legal Officer", "Aavas Financiers Ltd.", "September 2022 - Till Now"],        ["Researcher", "Chambers of Adv. Jay Prakash Rawat", "February '22- April '22'],        ["Researcher", "Chambers of Adv. Jay Prakash Gupta", "August '21- October '21'],        ["Researcher", "Chambers of Adv. Sunil Kaushik", "June'21- August '21"],        ["Researcher", "Chambers of Adv. Ganpat Raj J. Bhandari", "Nov'20-Dec'20"],        ["Researcher", "Chambers of Adv. Balkishan Gothwal", "Jul'19"],        ["Researcher", "Chambers of Adv. Mahendra Singh Hudda", "Jul'18"]    ],    "projects": [        ["Project 1"]    ]}
+2025-04-01 15:03:54 - ISTLogger_model_logger - ERROR - unable to get the data from the model text the text is{    "full_name": "AKSHAT SONI",    "education": [        ["Exam/ Courses", "Name of the Awarding Body", "Year of Passing", "CGPA/Marks", "Qualifications"],        ["Under- B.A. LL.B.", "Manipal", "2022", "7.14 out of 10", "University"],        ["graduation (HONS.)", "University Jaipur", "", "", ""],        ["12th COMMERCE", "Bhanwarlal CBSE", "2016", "54%", "Gothi Public Sr. School, Beawar"],        ["10th CBSE", "Bhanwarlal CBSE", "2014", "04.4/10", ""]    ],    "experience": [        ["Role", "Company", "Dates"],        ["Senior Legal Executive/Senior Legal Officer", "Aavas Financiers Ltd.", "September 2022 - Till Now"],        ["Researcher", "Chambers of Adv. Jay Prakash Rawat", "February '22- April '22'],        ["Researcher", "Chambers of Adv. Jay Prakash Gupta", "August '21- October '21'],        ["Researcher", "Chambers of Adv. Sunil Kaushik", "June'21- August '21"],        ["Researcher", "Chambers of Adv. Ganpat Raj J. Bhandari", "Nov'20-Dec'20"],        ["Researcher", "Chambers of Adv. Balkishan Gothwal", "Jul'19"],        ["Researcher", "Chambers of Adv. Mahendra Singh Hudda", "Jul'18"]    ],    "projects": [        ["Project 1"]    ]}
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 34, in model_data
+    data = ast.literal_eval(text)
+  File "/usr/lib/python3.8/ast.py", line 59, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/usr/lib/python3.8/ast.py", line 47, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    {    "full_name": "AKSHAT SONI",    "education": [        ["Exam/ Courses", "Name of the Awarding Body", "Year of Passing", "CGPA/Marks", "Qualifications"],        ["Under- B.A. LL.B.", "Manipal", "2022", "7.14 out of 10", "University"],        ["graduation (HONS.)", "University Jaipur", "", "", ""],        ["12th COMMERCE", "Bhanwarlal CBSE", "2016", "54%", "Gothi Public Sr. School, Beawar"],        ["10th CBSE", "Bhanwarlal CBSE", "2014", "04.4/10", ""]    ],    "experience": [        ["Role", "Company", "Dates"],        ["Senior Legal Executive/Senior Legal Officer", "Aavas Financiers Ltd.", "September 2022 - Till Now"],        ["Researcher", "Chambers of Adv. Jay Prakash Rawat", "February '22- April '22'],        ["Researcher", "Chambers of Adv. Jay Prakash Gupta", "August '21- October '21'],        ["Researcher", "Chambers of Adv. Sunil Kaushik", "June'21- August '21"],        ["Researcher", "Chambers of Adv. Ganpat Raj J. Bhandari", "Nov'20-Dec'20"],        ["Researcher", "Chambers of Adv. Balkishan Gothwal", "Jul'19"],        ["Researcher", "Chambers of Adv. Mahendra Singh Hudda", "Jul'18"]    ],    "projects": [        ["Project 1"]    ]}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+2025-04-01 15:46:54 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 15:58:03 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 15:58:03 - ISTLogger_model_logger - INFO - The text from the model is {    "full_name": "M Raja",    "education": [        ["Degree", "University", "Year","Grade"],        ["Name of Degree", "Name of University", "Year", "Grade"]    ],    "experience": [        ["Role", "Company", "Dates"],        ["Senior QA/QC Expert", "NHIDCL", "August 2022 - Till Date"]    ],    "projects": [        {            "Project 1": {                "Name of Project": "Consultancy Services for Authority’s Engineer",                "Client": "NHIDCL",                "Funding Agency": "JICA",                "Project Cost": "INR (4997.04 Crore)",                "Pavement Type": "Rigid Pavements",                "Location": "Assam, India",                "Year": "August 2022 - Till Date"            }        }    ]}
+2025-04-01 15:58:03 - ISTLogger_model_logger - INFO - The data from the model is {'full_name': 'M Raja', 'education': [['Degree', 'University', 'Year', 'Grade'], ['Name of Degree', 'Name of University', 'Year', 'Grade']], 'experience': [['Role', 'Company', 'Dates'], ['Senior QA/QC Expert', 'NHIDCL', 'August 2022 - Till Date']], 'projects': [{'Project 1': {'Name of Project': 'Consultancy Services for Authority’s Engineer', 'Client': 'NHIDCL', 'Funding Agency': 'JICA', 'Project Cost': 'INR (4997.04 Crore)', 'Pavement Type': 'Rigid Pavements', 'Location': 'Assam, India', 'Year': 'August 2022 - Till Date'}}]}
+2025-04-01 15:58:03 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'full_name': 'M Raja', 'education': [], 'experience': [['Role', 'Company', 'Dates'], ['Senior QA/QC Expert', 'NHIDCL', 'August 2022 - Till Date']], 'projects': [{'Project 1': {'Name of Project': 'Consultancy Services for Authority’s Engineer', 'Client': 'NHIDCL', 'Funding Agency': 'JICA', 'Project Cost': 'INR (4997.04 Crore)', 'Pavement Type': 'Rigid Pavements', 'Location': 'Assam, India', 'Year': 'August 2022 - Till Date'}}], 'First_Name': 'M', 'Middle_Name': 'Raja', 'Last_Name': '', 'company_data': [{'COMPANY': 'Company', 'DESIGNATION': 'Role', 'FROM DATE': '', 'TO DATE': ''}, {'COMPANY': 'NHIDCL', 'DESIGNATION': 'Senior QA/QC Expert', 'FROM DATE': '2022-08-01', 'TO DATE': '2025-04-01'}]}
+
+
+2025-04-01 16:16:43 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 16:21:24 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 16:21:24 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+ValueError: substring not found
+2025-04-01 16:21:37 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 16:25:16 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 16:25:16 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+ValueError: substring not found
+2025-04-01 16:25:28 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 16:28:46 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 16:28:46 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+ValueError: substring not found
+2025-04-01 16:29:06 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 16:39:11 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 16:57:17 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 16:57:17 - ISTLogger_model_logger - INFO - The text from the model is {"name":{"model":"llama3.2:latest","created_at":"2025-04-01T11:09:32.390729708Z","message":{"role":"assistant","content":"{"name":"Consultant Name"}"},"done_reason":"stop","done":true,"total_duration":18629547303,"load_duration":3082531996,"prompt_eval_count":2048,"prompt_eval_duration":14828000000,"eval_count":8,"eval_duration":715000000},"education":{"model":"llama3.2:latest","created_at":"2025-04-01T11:09:54.693150979Z","message":{"role":"assistant","content":"Here is the extracted education detail in the required format:{"education": [  ["Bachelor's Degree", "XYZ University", "2010", "Graduated"],  ["Master's Degree", "ABC University", "2015", "Graduated"]]} However, it seems there are no graduate-level degrees mentioned. Here is an alternative representation of education detail in a more general format:{"education": [  {"degree": "Bachelor's Degree", "university": "XYZ University", "year": "2010"},  {"degree": "Master's Degree", "university": "ABC University", "year": "2015"}]}"},"done_reason":"stop","done":true,"total_duration":22295091410,"load_duration":21496518,"prompt_eval_count":2048,"prompt_eval_duration":13912000000,"eval_count":133,"eval_duration":8359000000},"experience":{"model":"llama3.2:latest","created_at":"2025-04-01T11:10:15.594616007Z","message":{"role":"assistant","content":"Here is the extracted experience in the required format:{"experience":[["Senior QA/QC Expert", "NHIDCL", "August 2022 - Till Date"],["Reviewing Concessionaires work programs and performance of Concessionaires plant, equipment and machinery","Inspection of installation of material testing lab and supervision of setting up of rock crushers and bituminous mixing plants","Cordination with various agencies for pre-construction activities"]]}"},"done_reason":"stop","done":true,"total_duration":20896670528,"load_duration":29356137,"prompt_eval_count":2048,"prompt_eval_duration":14988000000,"eval_count":92,"eval_duration":5876000000},"project":{"model":"llama3.2:latest","created_at":"2025-04-01T11:10:44.407195034Z","message":{"role":"assistant","content":"{"project":[["Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA.","Project Length: 19.282 Km, 4-Lane, Client: NHIDCL, Funded By: JICA, Project Cost: INR (4997.04 Crore), Pavement Type: Rigid Pavements."],["Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA."]}"},"done_reason":"stop","done":true,"total_duration":28810799885,"load_duration":21821275,"prompt_eval_count":2048,"prompt_eval_duration":16065000000,"eval_count":213,"eval_duration":12722000000}}
+2025-04-01 16:57:17 - ISTLogger_model_logger - ERROR - unable to get the data from the model text the text is{"name":{"model":"llama3.2:latest","created_at":"2025-04-01T11:09:32.390729708Z","message":{"role":"assistant","content":"{"name":"Consultant Name"}"},"done_reason":"stop","done":true,"total_duration":18629547303,"load_duration":3082531996,"prompt_eval_count":2048,"prompt_eval_duration":14828000000,"eval_count":8,"eval_duration":715000000},"education":{"model":"llama3.2:latest","created_at":"2025-04-01T11:09:54.693150979Z","message":{"role":"assistant","content":"Here is the extracted education detail in the required format:{"education": [  ["Bachelor's Degree", "XYZ University", "2010", "Graduated"],  ["Master's Degree", "ABC University", "2015", "Graduated"]]} However, it seems there are no graduate-level degrees mentioned. Here is an alternative representation of education detail in a more general format:{"education": [  {"degree": "Bachelor's Degree", "university": "XYZ University", "year": "2010"},  {"degree": "Master's Degree", "university": "ABC University", "year": "2015"}]}"},"done_reason":"stop","done":true,"total_duration":22295091410,"load_duration":21496518,"prompt_eval_count":2048,"prompt_eval_duration":13912000000,"eval_count":133,"eval_duration":8359000000},"experience":{"model":"llama3.2:latest","created_at":"2025-04-01T11:10:15.594616007Z","message":{"role":"assistant","content":"Here is the extracted experience in the required format:{"experience":[["Senior QA/QC Expert", "NHIDCL", "August 2022 - Till Date"],["Reviewing Concessionaires work programs and performance of Concessionaires plant, equipment and machinery","Inspection of installation of material testing lab and supervision of setting up of rock crushers and bituminous mixing plants","Cordination with various agencies for pre-construction activities"]]}"},"done_reason":"stop","done":true,"total_duration":20896670528,"load_duration":29356137,"prompt_eval_count":2048,"prompt_eval_duration":14988000000,"eval_count":92,"eval_duration":5876000000},"project":{"model":"llama3.2:latest","created_at":"2025-04-01T11:10:44.407195034Z","message":{"role":"assistant","content":"{"project":[["Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA.","Project Length: 19.282 Km, 4-Lane, Client: NHIDCL, Funded By: JICA, Project Cost: INR (4997.04 Crore), Pavement Type: Rigid Pavements."],["Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA."]}"},"done_reason":"stop","done":true,"total_duration":28810799885,"load_duration":21821275,"prompt_eval_count":2048,"prompt_eval_duration":16065000000,"eval_count":213,"eval_duration":12722000000}}
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 34, in model_data
+    data = ast.literal_eval(text)
+  File "/usr/lib/python3.8/ast.py", line 59, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/usr/lib/python3.8/ast.py", line 47, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    {"name":{"model":"llama3.2:latest","created_at":"2025-04-01T11:09:32.390729708Z","message":{"role":"assistant","content":"{"name":"Consultant Name"}"},"done_reason":"stop","done":true,"total_duration":18629547303,"load_duration":3082531996,"prompt_eval_count":2048,"prompt_eval_duration":14828000000,"eval_count":8,"eval_duration":715000000},"education":{"model":"llama3.2:latest","created_at":"2025-04-01T11:09:54.693150979Z","message":{"role":"assistant","content":"Here is the extracted education detail in the required format:{"education": [  ["Bachelor's Degree", "XYZ University", "2010", "Graduated"],  ["Master's Degree", "ABC University", "2015", "Graduated"]]} However, it seems there are no graduate-level degrees mentioned. Here is an alternative representation of education detail in a more general format:{"education": [  {"degree": "Bachelor's Degree", "university": "XYZ University", "year": "2010"},  {"degree": "Master's Degree", "university": "ABC University", "year": "2015"}]}"},"done_reason":"stop","done":true,"total_duration":22295091410,"load_duration":21496518,"prompt_eval_count":2048,"prompt_eval_duration":13912000000,"eval_count":133,"eval_duration":8359000000},"experience":{"model":"llama3.2:latest","created_at":"2025-04-01T11:10:15.594616007Z","message":{"role":"assistant","content":"Here is the extracted experience in the required format:{"experience":[["Senior QA/QC Expert", "NHIDCL", "August 2022 - Till Date"],["Reviewing Concessionaires work programs and performance of Concessionaires plant, equipment and machinery","Inspection of installation of material testing lab and supervision of setting up of rock crushers and bituminous mixing plants","Cordination with various agencies for pre-construction activities"]]}"},"done_reason":"stop","done":true,"total_duration":20896670528,"load_duration":29356137,"prompt_eval_count":2048,"prompt_eval_duration":14988000000,"eval_count":92,"eval_duration":5876000000},"project":{"model":"llama3.2:latest","created_at":"2025-04-01T11:10:44.407195034Z","message":{"role":"assistant","content":"{"project":[["Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA.","Project Length: 19.282 Km, 4-Lane, Client: NHIDCL, Funded By: JICA, Project Cost: INR (4997.04 Crore), Pavement Type: Rigid Pavements."],["Consultancy Services for Authority’s Engineer for supervision of Construction of Four-lane bridge Including approaches over River Brahmaputra between Dhubri (on North Bank) and Phulbari (on South Bank) in the state of Assam/Meghalaya on NH-127B (Length: 19.282 km) on JICA design build with loan assistance from JICA."]}"},"done_reason":"stop","done":true,"total_duration":28810799885,"load_duration":21821275,"prompt_eval_count":2048,"prompt_eval_duration":16065000000,"eval_count":213,"eval_duration":12722000000}}
+                                                                                                                                ^
+SyntaxError: invalid syntax
+2025-04-01 16:57:29 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx------------------------------------
+
+
+2025-04-01 16:59:24 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-01 17:01:37 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-01 17:03:24 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/Ahmed Waheed_original.pdf------------------------------------
+
+
+2025-04-01 17:18:45 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-02 12:25:59 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/Ahmed Waheed_original.pdf------------------------------------
+
+
+2025-04-02 12:27:52 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f1f7526d370>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.131.122.247', port=9008): Max retries exceeded with url: /resume (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1f7526d370>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 20, in model_data
+    response = requests.post(url, files=files)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='202.131.122.247', port=9008): Max retries exceeded with url: /resume (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1f7526d370>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2025-04-02 14:16:33 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf------------------------------------
+
+
+2025-04-02 14:34:50 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-02 14:50:49 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-02 14:52:44 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf------------------------------------
+
+
+2025-04-02 15:04:08 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf------------------------------------
+
+
+2025-04-02 15:11:32 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-02 15:12:01 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-02 15:45:15 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf------------------------------------
+
+
+2025-04-02 15:49:36 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-02 16:40:58 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-03 09:24:52 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf------------------------------------
+
+
+2025-04-03 09:25:02 - ISTLogger_model_logger - INFO - The model returned empty data <Response [400]>
+
+
+2025-04-03 09:28:30 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf------------------------------------
+
+
+2025-04-03 10:05:42 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/1 TL Pramod Kumar Jain_Final.docx------------------------------------
+
+
+2025-04-03 10:18:10 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 13, in model_data
+    files = [('file', (f'{pdf_name}', open(pdf_path, 'rb'), 'application/octet-stream'))]
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf'
+2025-04-03 15:30:20 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx------------------------------------
+
+
+2025-04-03 15:30:22 - ISTLogger_model_logger - INFO - The model returned empty data <Response [400]>
+
+
+2025-04-03 15:31:37 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx------------------------------------
+
+
+2025-04-03 15:33:56 - ISTLogger_model_logger - INFO - The model returned empty data <Response [400]>
+
+
+2025-04-03 15:34:57 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx------------------------------------
+
+
+2025-04-03 15:35:35 - ISTLogger_model_logger - INFO - The model returned empty data <Response [400]>
+
+
+2025-04-03 15:46:01 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf------------------------------------
+
+
+2025-04-03 15:46:44 - ISTLogger_model_logger - INFO - The model returned empty data <Response [502]>
+
+
+2025-04-03 16:00:28 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf------------------------------------
+
+
+2025-04-03 16:01:04 - ISTLogger_model_logger - INFO - The model returned empty data <Response [500]>
+
+
+2025-04-03 16:07:08 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf------------------------------------
+
+
+2025-04-03 16:20:31 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf------------------------------------
+
+
+2025-04-03 16:22:07 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-03 16:22:20 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-03 16:23:42 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-10_Social and GBV Specialist_Pauline Ngetaa Ikumi.pdf------------------------------------
+
+
+2025-04-03 16:25:24 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-03 16:55:48 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-03 16:57:40 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-11-Senior Resettlement Specialist_Nitin Sithole.pdf------------------------------------
+
+
+2025-04-03 16:59:21 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-03 16:59:21 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-03 17:00:36 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf------------------------------------
+
+
+2025-04-03 17:03:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf------------------------------------
+
+
+2025-04-03 17:05:23 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 17:22:18 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'First_Name': 'A', 'Middle_Name': '', 'Last_Name': ''}
+
+
+2025-04-03 17:24:19 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf------------------------------------
+
+
+2025-04-03 17:26:02 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 17:28:04 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'First_Name': 'NAME', 'Middle_Name': 'OF', 'Last_Name': 'THE'}
+
+
+2025-04-03 17:31:50 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf------------------------------------
+
+
+2025-04-03 17:34:52 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 17:34:52 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'First_Name': 'ADMINISTRAÇÃO', 'Middle_Name': 'NACIONAL', 'Last_Name': 'DE'}
+
+
+2025-04-03 17:37:55 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 17:39:54 - ISTLogger_model_logger - INFO - The model retuned the status code of 200
+2025-04-03 17:40:18 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 24, in model_data
+    start=text.index('{')
+AttributeError: 'dict' object has no attribute 'index'
+2025-04-03 17:41:10 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 17:46:45 - ISTLogger_model_logger - INFO - The model returned empty data <Response [502]>
+
+
+2025-04-03 17:47:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 17:50:22 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 17:58:33 - ISTLogger_model_logger - ERROR - error in experience
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 85, in model_data
+    if experiences!='':
+NameError: name 'experiences' is not defined
+2025-04-03 17:58:33 - ISTLogger_model_logger - ERROR - error in education
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 146, in model_data
+    if educations!='':
+NameError: name 'educations' is not defined
+2025-04-03 17:58:33 - ISTLogger_model_logger - INFO - The model returned this data after extraction {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed', 'experience': [], 'education': []}
+
+
+2025-04-03 18:01:56 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 18:04:03 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 18:05:27 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed'}
+2025-04-03 21:51:02 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 21:55:10 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 22:12:07 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed'}
+2025-04-03 22:16:06 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 22:17:30 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 22:17:30 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed'}
+2025-04-03 22:18:56 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 22:20:39 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 22:27:13 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed', 'projects': ['N381: Mueda - Xitaxi (52.0 km)', 'N380 Muagamula – Xitaxi (25.0 km)', 'N762: Metugi – Quissanga (88.0 km)']}
+2025-04-03 22:27:23 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 22:29:47 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 22:30:38 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 89, in model_data
+    education_match = extract_json_from_text(r'{"education"\s*:\s*(\[[^\]]+\])}', education_value)
+TypeError: extract_json_from_text() takes 1 positional argument but 2 were given
+2025-04-03 22:31:03 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 22:32:24 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 22:33:06 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed', 'education': [["Bachelor's Degree", 'Ethiopian Institute of Technology', '2000-2004', 'CGPA: 3.5'], ["Master's Degree", 'Addis Ababa University', '2006-2008', 'Distinction']]}
+2025-04-03 22:35:20 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 102, in model_data
+    experience_match = extract_json_from_text(r'{"experience"\s*:\s*(\[[^\]]+\])}', experience_value)
+TypeError: extract_json_from_text() takes 1 positional argument but 2 were given
+2025-04-03 22:35:32 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf------------------------------------
+
+
+2025-04-03 22:37:18 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-03 22:37:41 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed', 'education': [["Bachelor's Degree", 'Addis Ababa University', '2000', 'GPA: 3.5'], ["Master's Degree", 'University of Johannesburg', '2006', 'Distinction']]}
+2025-04-03 22:38:31 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Sadia', 'Middle_Name': 'Beshir', 'Last_Name': 'Mohammed', 'education': [["Bachelor's Degree", 'Addis Ababa University', '2000', 'GPA: 3.5'], ["Master's Degree", 'University of Johannesburg', '2006', 'Distinction']], 'experience': [['Project Manager', 'Various Government Agencies', '2006-2023'], ['Statistician', 'Kokeb Pasta and Flour Factory', '2006-2007'], ['Consultant', 'Various Clients', '2010-2023']], 'projects': ['Consultancy Services for Preparation of Feasibility Study, Conceptual Design, Environmental and Social Impact Assessment, Resettlement Action Plan, Bidding Documents and Procurement Support for civil works under design and build methodology for the roads: N381: Mueda - Xitaxi (52.0 km), N380 Muagamula – Xitaxi (25.0 km) and N762: Metugi – Quissanga (88.0 km) in Cabo Delgado province, Mozambique RFP No: 47A003041/CP/169/2023']}
+2025-04-04 09:15:47 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 09:15:47 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f29c2b2db80>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.131.122.247', port=9008): Max retries exceeded with url: /resume (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f29c2b2db80>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 35, in model_data
+    response = requests.post(url, files=files)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='202.131.122.247', port=9008): Max retries exceeded with url: /resume (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f29c2b2db80>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2025-04-04 09:16:29 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 09:16:29 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fe0fb15c4f0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.131.122.247', port=9008): Max retries exceeded with url: /resume (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0fb15c4f0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 35, in model_data
+    response = requests.post(url, files=files)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='202.131.122.247', port=9008): Max retries exceeded with url: /resume (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0fb15c4f0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2025-04-04 09:17:11 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 09:21:36 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 09:22:01 - ISTLogger_model_logger - ERROR - Error parsing education JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 92, in model_data
+    education_data = json.loads(education_json)  # Safe parsing
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 3 column 1 (char 18)
+2025-04-04 09:22:04 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Esmael', 'Middle_Name': 'Endris', 'Last_Name': 'Hassen'}
+2025-04-04 09:23:09 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Esmael', 'Middle_Name': 'Endris', 'Last_Name': 'Hassen', 'experience': [['Consultant', 'Administração Nacional de Estradas, I.P.', '17/09/2024'], ['Consultant', 'Administração Nacional de Estradas, I.P.', '17/09/2024']], 'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km )', 'N762: Metugi – Quissanga (88.0 km )']]}
+2025-04-04 10:04:44 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 10:06:34 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:06:53 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 51, in model_data
+    name_data = json.loads(name_json)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 33)
+2025-04-04 10:06:53 - ISTLogger_model_logger - ERROR - Error parsing education JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 92, in model_data
+    education_data = json.loads(education_json)  # Safe parsing
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 105 (char 104)
+2025-04-04 10:06:53 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 10:06:53 - ISTLogger_model_logger - ERROR - Error parsing experience JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 105, in model_data
+    experience_data = json.loads(experience_json)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 6 column 1 (char 173)
+2025-04-04 10:06:53 - ISTLogger_model_logger - INFO - Extracted structured data: {'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km )', 'N762: Metugi – Quissanga (88.0 km )']]}
+2025-04-04 10:07:17 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 10:12:52 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:15:55 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 51, in model_data
+    name_data = json.loads(name_json)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 33)
+2025-04-04 10:15:55 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [["Bachelor's Degree", 'CEG India', '2015', 'N/A'], ["Master's Degree", 'CEG India', '2017', 'N/A']]}
+2025-04-04 10:15:55 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [["Bachelor's Degree", 'CEG India', '2015', 'N/A'], ["Master's Degree", 'CEG India', '2017', 'N/A']], 'experience': [['Project Manager', 'Unknown', ''], ['Expert Consultant', 'Unknown', ''], ['Consultant', 'Unknown', '']], 'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km )', 'N762: Metugi – Quissanga (88.0 km )']]}
+2025-04-04 10:25:28 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 10:28:04 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:31:14 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Esmael', 'Middle_Name': 'Endris', 'Last_Name': 'Hassen', 'education': [['Master of Science in Civil Engineering', 'Addis Ababa University', '2005-2009', 'GPA: 3.8/4'], ['MSc in Water Resources Management', 'Cornell University', '2010-2012', 'GPA: 3.5/4']]}
+2025-04-04 10:31:14 - ISTLogger_model_logger - ERROR - Error parsing experience JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 105, in model_data
+    experience_data = json.loads(experience_json)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 3 column 1 (char 137)
+2025-04-04 10:31:14 - ISTLogger_model_logger - INFO - Extracted structured data: {'First_Name': 'Esmael', 'Middle_Name': 'Endris', 'Last_Name': 'Hassen', 'education': [['Master of Science in Civil Engineering', 'Addis Ababa University', '2005-2009', 'GPA: 3.8/4'], ['MSc in Water Resources Management', 'Cornell University', '2010-2012', 'GPA: 3.5/4']], 'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km )', 'N762: Metugi – Quissanga (88.0 km )']]}
+2025-04-04 10:32:05 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 10:34:00 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:34:32 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 54, in model_data
+    name_data = json.loads(name_json)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 33)
+2025-04-04 10:34:32 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': []}
+2025-04-04 10:34:32 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [], 'experience': [['Consultant', 'CEG India', '2024'], ['Consultant', 'ADMINISTRAÇÃO NACIONAL DE ESTRADAS, I.P.', '2024']], 'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km )', 'N762: Metugi – Quissanga (88.0 km )']]}
+2025-04-04 10:35:33 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 10:37:36 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:37:36 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 54, in model_data
+    name_data = json.loads(name_json)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 32)
+2025-04-04 10:37:59 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 10:37:59 - ISTLogger_model_logger - INFO - Extracted structured data: {'experience': [['Hydraulic Engineer', 'CEG India', 'Date: 17/09/2024'], ['Consultant', 'CEG India', 'Date: 17/09/2024']], 'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km)'], ['Metugi – Quissanga (88.0 km)']]}
+2025-04-04 10:38:17 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 10:40:01 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:46:11 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 54, in model_data
+    name_data = json.loads(name_json)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 33)
+2025-04-04 10:46:11 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [["Bachelor's Degree", 'CET University', '2015', 'A'], ["Master's Degree", 'Addis Ababa University', '2018', 'B']]}
+2025-04-04 10:46:11 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [["Bachelor's Degree", 'CET University', '2015', 'A'], ["Master's Degree", 'Addis Ababa University', '2018', 'B']], 'experience': [['Road Engineer', 'CEG India', '2024'], ['Consultant', 'Administração Nacional de Estradas, I.P.', '2024'], ['Expert', 'Administração Nacional de Estradas, I.P.', '2024']], 'projects': [['N381: Mueda - Xitaxi (52.0 km )', 'N380 Muagamula – Xitaxi (25.0 km )', 'N762: Metugi – Quissanga (88.0 km )']]}
+2025-04-04 10:47:55 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:48:10 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 52, in model_data
+    name_value = text["name"]
+TypeError: string indices must be integers
+2025-04-04 10:48:43 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:49:20 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 52, in model_data
+    name_value = text["name"]
+TypeError: string indices must be integers
+2025-04-04 10:49:34 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:51:46 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 10:52:18 - ISTLogger_model_logger - ERROR - Error parsing project JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 122, in model_data
+    project_data = json.loads(project_json)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 38 (char 37)
+2025-04-04 10:52:18 - ISTLogger_model_logger - INFO - Extracted structured data: {'experience': [['Road ...o Nacional de Estradas, I.P.', '2024']]}
+2025-04-04 10:54:15 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 10:54:31 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 10:58:03 - ISTLogger_model_logger - ERROR - Error parsing project JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 122, in model_data
+    project_data = json.loads(project_json)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 38 (char 37)
+2025-04-04 10:58:03 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 10:58:03 - ISTLogger_model_logger - WARNING - No valid data extracted, returning empty dictionary
+2025-04-04 10:58:33 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf------------------------------------
+
+
+2025-04-04 11:02:46 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:02:46 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 11:02:46 - ISTLogger_model_logger - ERROR - Error parsing project JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 122, in model_data
+    project_data = json.loads(project_json)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 38 (char 37)
+2025-04-04 11:02:46 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 11:02:46 - ISTLogger_model_logger - WARNING - No valid data extracted, returning empty dictionary
+2025-04-04 11:44:38 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2 Final CV_ GC Mathur_Sr Highway cum Road Safety Er.docx------------------------------------
+
+
+2025-04-04 11:46:28 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:47:01 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Dharmendra', 'Middle_Name': 'Kumar', 'Last_Name': 'Mishra'}}
+2025-04-04 11:47:40 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:48:04 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2 Final CV_ GC Mathur_Sr Highway cum Road Safety Er.docx------------------------------------
+
+
+2025-04-04 11:50:50 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:52:01 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Dharmendra', 'Middle_Name': 'Kumar', 'Last_Name': 'Mishra'}}
+2025-04-04 11:52:45 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:54:04 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 11:54:40 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:56:22 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': 'Ticku', 'Last_Name': ''}, 'education': [{'degree': 'B.A.LL.B. (Hons)', 'institution': 'University of Rajasthan, Jaipur', 'year': '2018-23', 'grade': '74%'}, {'degree': '10th Class', 'institution': "Saint Edmund's School, Jaipur (C.B.S.E)", 'year': '6.4 CGPA', 'grade': '2015'}]}
+2025-04-04 11:56:22 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:56:33 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 11:57:34 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:57:34 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 106, in model_data
+    name_parts.insert('',1)  # Ensure at least 3 parts
+TypeError: 'str' object cannot be interpreted as an integer
+2025-04-04 11:57:43 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 11:57:45 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 11:57:45 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 11:58:33 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:58:33 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:58:47 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:58:47 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 11:58:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 11:58:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 11:58:47 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:58:47 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:58:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'degree': 'B.A.LL.B.', 'institution': 'University of Rajasthan, Jaipur', 'year': '2018-23', 'grade': '74%'}, {'degree': 'LL.M. (Business Law)', 'institution': 'University of Rajasthan, Jaipur', 'year': '2024', 'grade': ''}]}
+2025-04-04 11:58:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'degree': 'B.A.LL.B.', 'institution': 'University of Rajasthan, Jaipur', 'year': '2018-23', 'grade': '74%'}, {'degree': 'LL.M. (Business Law)', 'institution': 'University of Rajasthan, Jaipur', 'year': '2024', 'grade': ''}]}
+2025-04-04 11:58:47 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:58:47 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 11:59:03 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 11:59:37 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:05:00 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'degree': 'B.A.LL.B. (Hons)', 'institution': 'University of Rajasthan, Jaipur', 'year': '2018-23', 'grade': '74%'}, {'degree': 'LL.M. (Business Law)', 'institution': 'University of Rajasthan, Jaipur', 'year': '2024', 'grade': 'N/A'}]}
+2025-04-04 12:05:00 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:05:11 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:05:50 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:07:27 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 12:08:57 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:09:07 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:09:45 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:11:37 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 12:11:37 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:11:51 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:12:31 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:16:28 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M.', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'Perusing'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%(RBSE)'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 12:17:09 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:17:34 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:18:37 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:19:05 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B.(Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60% (RBSE) with humanities stream', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 12:23:22 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 154, in model_data
+    experience_json = extract_experience_data(experience_value, 'experience')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 60, in extract_experience_data
+    "designation": entry[3],
+IndexError: list index out of range
+2025-04-04 12:23:39 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:24:16 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:24:20 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 12:24:57 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 170, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:25:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:26:03 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:26:24 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 12:27:30 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 170, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:27:52 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:28:33 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:29:36 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 12:43:31 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 170, in model_data
+    experience_value = text["experience"]
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:43:40 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:44:25 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:46:48 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 12:46:48 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 183, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:47:33 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:48:22 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:48:32 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'n/a'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60%', 'YEAR OF PASSING': '2017', 'GRADE': '83.60% (RBSE)'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 12:54:08 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 193, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 12:54:20 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 12:55:04 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 12:55:15 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60% (RBSE)', 'YEAR OF PASSING': '2017', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 14:14:42 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 193, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 14:15:02 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:16:09 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:16:31 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 14:21:19 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 193, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 14:23:00 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:23:38 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:23:42 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'Bachelor of Laws with Honours (B.A.LL.B.)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 14:23:48 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 206, in model_data
+    experience_json = extract_experience_data(experience_value, 'experience')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 100, in extract_experience_data
+    for entry in data[key]:
+TypeError: string indices must be integers
+2025-04-04 14:24:42 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:25:19 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:25:22 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'NA'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 14:25:32 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 195, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 14:26:06 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:26:43 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:26:46 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'No Grade Mentioned'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B.(Hons) ', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60% (RBSE)', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E) ", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 14:28:43 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 195, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 14:28:52 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:29:32 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:30:13 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 14:37:34 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 195, in model_data
+NameError: name 'extract_json_from_text' is not defined
+2025-04-04 14:38:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:39:18 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:39:23 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 14:40:41 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern (Advocate Devendra Mohan Mathur)', 'company': 'Devendra Mohan Mathur Law Practice', 'from_date': 'February 2019', 'to_date': 'March 2019'}, {'designation': 'Intern (Rajasthan Legal Service Authority)', 'company': 'Rajasthan Legal Service Authority', 'from_date': 'July 2019', 'to_date': 'August 2019'}, {'designation': 'Intern (Advocate Pramod Sharma)', 'company': 'Pramod Sharma Law Practice', 'from_date': 'August 2019', 'to_date': 'September 2019'}, {'designation': 'Intern (Advocate Satendra Kumar Gupta AAG)', 'company': 'Satendra Kumar Gupta AAG Law Practice', 'from_date': 'September 2019', 'to_date': 'October 2019'}]}
+2025-04-04 14:40:53 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:41:37 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:41:37 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 146, in model_data
+    name_data = json.loads(first_line)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 23 (char 22)
+2025-04-04 14:41:44 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 14:42:01 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': 'October 2019 (1 month)'}]}
+2025-04-04 14:42:11 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:42:48 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:43:11 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 146, in model_data
+    name_data = json.loads(first_line)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 23 (char 22)
+2025-04-04 14:43:11 - ISTLogger_model_logger - INFO - Extracted structured data: {'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 14:43:11 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 199, in model_data
+    experience_json = extract_experience_data(experience_value, 'experience')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 66, in extract_experience_data
+    raw_date = entry[2].strip()
+KeyError: 2
+2025-04-04 14:43:23 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:44:20 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:45:46 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B.(Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 14:46:04 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B.(Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 14:52:09 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:52:49 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:54:40 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 14:55:25 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 14:55:35 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:56:58 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:57:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'Bachelor of Arts,LL.B.(Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60% (RBSE)', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}]}
+2025-04-04 14:58:08 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'Bachelor of Arts,LL.B.(Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60% (RBSE)', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}]}
+2025-04-04 14:58:22 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 14:59:03 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 14:59:12 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'Perusing'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}]}
+2025-04-04 15:02:44 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'Perusing'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern (Advocate Devendra Mohan Mathur)', 'company': 'None', 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern (Rajasthan Legal Service Authority (RLSA))', 'company': 'None', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern (Advocate Pramod Sharma)', 'company': 'None', 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern (Advocate Satendra Kumar Gupta (AAG))', 'company': 'None', 'from_date': 'September 2019', 'to_date': ''}]}
+2025-04-04 15:03:24 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:04:15 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:06:03 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'Perusing'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 15:07:08 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'Perusing'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'project': [{'title': 'O', 'date': 'b'}, {'title': 'P', 'date': 'r'}, {'title': 'L', 'date': 'e'}, {'title': 'L', 'date': 'e'}, {'title': 'S', 'date': 't'}, {'title': 'C', 'date': 'r'}, {'title': 'D', 'date': 'r'}]}
+2025-04-04 15:07:18 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:07:51 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:08:27 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}]}
+2025-04-04 15:09:12 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}]}
+2025-04-04 15:09:25 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:09:57 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:10:33 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:24:41 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'Bachelor of Arts, Humanities', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan', 'YEAR OF PASSING': 2018, 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'Bachelor of Laws (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan', 'YEAR OF PASSING': 2024, 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'Master of Laws(Business Law) ', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': 2024, 'GRADE': ''}]}
+2025-04-04 15:24:41 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'Bachelor of Arts, Humanities', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan', 'YEAR OF PASSING': 2018, 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'Bachelor of Laws (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan', 'YEAR OF PASSING': 2024, 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'Master of Laws(Business Law) ', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': 2024, 'GRADE': ''}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': ''}], 'project': [{'title': 'I', 'date': 'n'}, {'title': 'I', 'date': 'n'}, {'title': 'I', 'date': 'n'}, {'title': 'J', 'date': 'u'}, {'title': 'I', 'date': 'n'}, {'title': '8', 'date': 't'}, {'title': 'N', 'date': 'a'}, {'title': 'D', 'date': 'e'}]}
+2025-04-04 15:24:52 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:25:31 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:25:34 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 15:26:06 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'project': [{'title': 'L', 'date': 'L'}, {'title': 'U', 'date': 'n'}, {'title': '1', 'date': '2'}, {'title': '1', 'date': '0'}]}
+2025-04-04 15:26:18 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:26:54 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:28:58 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'None'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College, University of Rajasthan', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 15:30:25 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'None'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College, University of Rajasthan', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern at Rajasthan Legal Service Authority (RLSA)', 'company': 'RLSA', 'from_date': 'July 2019', 'to_date': 'August 2019'}, {'designation': 'Intern under Advocate Devendra Mohan Mathur', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': 'March 2019'}, {'designation': 'Intern under Advocate Pramod Sharma', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': 'September 2019'}, {'designation': 'Intern under Advocate Satendra Kumar Gupta (AAG)', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': 'October 2019'}]}
+2025-04-04 15:40:35 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:40:48 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:41:46 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:41:54 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}]}
+2025-04-04 15:42:56 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'N/A'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Present'}, {'designation': 'Intern', 'company': "Advocate Devendra Mohan Mathur's Firm", 'from_date': 'February 2019', 'to_date': 'March 2019'}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': 'August 2019'}, {'designation': 'Intern', 'company': "Advocate Pramod Sharma's Firm", 'from_date': 'August 2019', 'to_date': 'September 2019'}, {'designation': 'Intern', 'company': "Advocate Satendra Kumar Gupta's Firm", 'from_date': 'September 2019', 'to_date': 'October 2019'}], 'project': [{'title': 'I', 'date': 'n'}, {'title': 'I', 'date': 'n'}, {'title': 'I', 'date': 'n'}, {'title': 'I', 'date': 'n'}, {'title': 'J', 'date': 'u'}]}
+2025-04-04 15:43:41 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:44:17 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:44:28 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': '-'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 15:51:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:52:25 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:52:30 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'NA'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C), University of Rajasthan', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 15:57:48 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 214, in model_data
+    project_json = extract_project_data(project_value, 'project')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 106, in extract_project_data
+    extracted_data.extend(parsed[key])  # Append extracted data
+TypeError: list indices must be integers or slices, not str
+2025-04-04 15:58:15 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 15:59:02 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 15:59:23 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'n/a'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B.(Hons) ', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60%', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 16:05:10 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': 'n/a'}, {'QUALIFICATION_LEVEL': 'B.A.LL.B.(Hons) ', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60%', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': ''}]}
+2025-04-04 16:05:28 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:06:29 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:06:31 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College (U.F.Y.L.C) - University of Rajasthan', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60% (RBSE) with humanities stream'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 16:12:41 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 214, in model_data
+    project_json = extract_project_data(project_value, 'project')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 106, in extract_project_data
+    extracted_data.extend(parsed[key])  # Append extracted data
+TypeError: list indices must be integers or slices, not str
+2025-04-04 16:13:21 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:14:01 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:14:03 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 16:15:38 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': ''}]}
+2025-04-04 16:15:48 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:16:21 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:17:56 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 16:19:55 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 16:20:07 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:20:38 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:21:34 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}]}
+2025-04-04 16:21:34 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 214, in model_data
+    project_json = extract_project_data(project_value, 'project')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 106, in extract_project_data
+    extracted_data.extend(parsed[key])  # Append extracted data
+TypeError: list indices must be integers or slices, not str
+2025-04-04 16:21:50 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:22:37 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:22:37 - ISTLogger_model_logger - ERROR - Error parsing name JSON
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 149, in model_data
+    name_data = json.loads(first_line)  # Parse JSON
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 23 (char 22)
+2025-04-04 16:26:37 - ISTLogger_model_logger - INFO - Extracted structured data: {}
+2025-04-04 16:26:37 - ISTLogger_model_logger - ERROR - error in the complete model and the model returned empty data 
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 214, in model_data
+    project_json = extract_project_data(project_value, 'project')
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 106, in extract_project_data
+    extracted_data.extend(parsed[key])  # Append extracted data
+TypeError: list indices must be integers or slices, not str
+2025-04-04 16:26:53 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:27:31 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:28:04 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': None}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60%', 'YEAR OF PASSING': '2017', 'GRADE': None}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 16:34:02 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': None}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - 83.60%', 'YEAR OF PASSING': '2017', 'GRADE': None}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur (C.B.S.E)", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': 'March 2019'}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': 'July 2019'}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': 'September 2019'}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': 'October 2019'}]}
+2025-04-04 16:35:27 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:36:29 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:36:51 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60% (RBSE) with humanities stream'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 16:53:54 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60% (RBSE) with humanities stream'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': 'March 2019 (1 month)'}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority', 'from_date': 'July 2019', 'to_date': 'July 2019 (1 month)'}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': 'September 2019 (2 months)'}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': 'October 2019 (1 month)'}]}
+2025-04-04 16:54:04 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:54:56 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:54:58 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 16:55:32 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern at Rajasthan Legal Service Authority (RLSA)', 'company': 'RLSA', 'from_date': 'July 2019', 'to_date': 'August 2019'}, {'designation': 'Intern under Advocate Pramod Sharma', 'company': "Advocate Pramod Sharma's Office", 'from_date': 'August 2019', 'to_date': 'September 2019'}, {'designation': "Intern at Advocate Satendra Kumar Gupta's (AAG) Office", 'company': "Advocate Satendra Kumar Gupta's Office", 'from_date': 'September 2019', 'to_date': 'October 2019'}, {'designation': 'Intern under Advocate Devendra Mohan Mathur', 'company': "Advocate Devendra Mohan Mathur's Office", 'from_date': 'February 2019', 'to_date': 'March 2019'}, {'designation': "Intern at Advocate Devendra Mohan Mathur's Office", 'company': "Advocate Devendra Mohan Mathur's Office", 'from_date': 'March 2019', 'to_date': 'April 2019'}]}
+2025-04-04 16:56:20 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:57:01 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 16:57:04 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 16:58:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': '74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': "Advocate Devendra Mohan Mathur's Office", 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern', 'company': "Advocate Pramod Sharma's Office", 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern', 'company': "Advocate Satendra Kumar Gupta's Office", 'from_date': 'September 2019', 'to_date': ''}]}
+2025-04-04 16:59:04 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 16:59:58 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 17:00:00 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': None}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College, University of Rajasthan', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}]}
+2025-04-04 17:00:18 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': None}, {'QUALIFICATION_LEVEL': 'B.A.LL.B. (Hons)', 'INSTITUTE_NAME': 'University Five-Year Law College, University of Rajasthan', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}, {'QUALIFICATION_LEVEL': '10th Class', 'INSTITUTE_NAME': "Saint Edmund's School, Jaipur - C.B.S.E", 'YEAR OF PASSING': '2015', 'GRADE': '6.4 CGPA'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern at Rajasthan Legal Service Authority (RLSA)', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': 'August 2019'}, {'designation': 'Intern under Advocate Pramod Sharma', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': 'September 2019'}, {'designation': 'Intern under Advocate Satendra Kumar Gupta (AAG)', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': 'October 2019'}, {'designation': 'Intern under Advocate Devendra Mohan Mathur', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': 'March 2019'}, {'designation': 'Intern at Advocate Pramod Sharma', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': 'September 2019'}], 'project': [{'title': 'Internship at University of Five-Year Law College, Rajasthan University', 'client': '', 'employer': 'University of Five-Year Law College, Rajasthan University', 'position': ''}, {'title': 'Internship at Advocate Devendra Mohan Mathur', 'client': '', 'employer': 'Advocate Devendra Mohan Mathur', 'position': ''}, {'title': 'Internship at Rajasthan Legal Service Authority (RLSA)', 'client': '', 'employer': 'Rajasthan Legal Service Authority (RLSA)', 'position': ''}, {'title': 'Internship at Advocate Pramod Sharma', 'client': '', 'employer': 'Advocate Pramod Sharma', 'position': ''}, {'title': 'Internship at Advocate Satendra Kumar Gupta (AAG)', 'client': '', 'employer': 'Advocate Satendra Kumar Gupta (AAG)', 'position': ''}, {'title': 'Junior Advocate at Rajasthan High Court, Jaipur', 'client': 'Rajasthan High Court, Jaipur', 'employer': 'Advocate D. K. Bhardwaj', 'position': ''}, {'title': 'UFYLC International Model United Nations', 'client': '', 'employer': 'University of Five-Year Law College, Rajasthan University', 'position': ''}, {'title': '8th FYLC Inter-Semester Moot Court Competition', 'client': '', 'employer': 'University of Five-Year Law College, Rajasthan University', 'position': ''}, {'title': 'National Criminal Justice Conference', 'client': '', 'employer': 'Rajasthan Legal Service Authority (RLSA)', 'position': ''}, {'title': 'Debate Competitions at University of Five-Year Law College, Rajasthan University', 'client': '', 'employer': 'University of Five-Year Law College, Rajasthan University', 'position': ''}]}
+2025-04-04 17:00:30 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 17:01:18 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 17:01:20 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}}
+2025-04-04 17:02:47 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'experience': [{'designation': 'Junior Advocate at Rajasthan High Court, Jaipur', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern under Advocate Devendra Mohan Mathur', 'company': "Advocate Devendra Mohan Mathur's office", 'from_date': 'February 2019', 'to_date': 'March 2019 (1 month)'}, {'designation': 'Intern at Rajasthan Legal Service Authority', 'company': 'Rajasthan Legal Service Authority', 'from_date': 'July 2019', 'to_date': 'July 26, 2019 (1 month)'}, {'designation': 'Intern under Advocate Pramod Sharma', 'company': "Advocate Pramod Sharma's office", 'from_date': 'August 2019', 'to_date': 'September 9, 2019 (1 month)'}, {'designation': 'Intern under Advocate Satendra Kumar Gupta (AAG)', 'company': "Advocate Satendra Kumar Gupta (AAG)'s office", 'from_date': 'September 2019', 'to_date': 'October 18, 2019 (1 month)'}], 'project': [{'title': 'LL.M. (Business Law) - University of Rajasthan, Jaipur', 'client': '', 'employer': '', 'position': ''}, {'title': 'University Five-Year Law College (U.F.Y.L.C)', 'client': '', 'employer': '', 'position': ''}, {'title': 'Debate Competitions in University of Five-Year Law College, Rajasthan University', 'client': '', 'employer': '', 'position': ''}, {'title': 'National Criminal Justice Conference organised by RLSA, The UFYLC, Jaipur', 'client': '', 'employer': '', 'position': ''}, {'title': 'UFYLC International Model United Nations (6th – 7th April 2019)', 'client': '', 'employer': '', 'position': ''}, {'title': '8th FYLC Inter- Semester Moot Court Competition', 'client': '', 'employer': '', 'position': ''}, {'title': 'Internship under Advocate Devendra Mohan Mathur', 'client': 'Advocate Devendra Mohan Mathur', 'employer': '', 'position': ''}, {'title': 'Internship at Rajasthan Legal service authority (RLSA)', 'client': 'Rajasthan Legal service authority (RLSA)', 'employer': '', 'position': ''}, {'title': 'Internship under Advocate Pramod Sharma', 'client': 'Advocate Pramod Sharma', 'employer': '', 'position': ''}, {'title': 'Internship under Advocate Satendra Kumar Gupta (AAG)', 'client': 'Advocate Satendra Kumar Gupta (AAG)', 'employer': '', 'position': ''}, {'title': 'Junior Advocate at Rajasthan High Court, Jaipur', 'client': 'Rajasthan High Court, Jaipur', 'employer': '', 'position': ''}, {'title': 'Legal Vetting and Advising to Legal Documents', 'client': '', 'employer': '', 'position': ''}, {'title': 'Legal Research and Cases Laws Research', 'client': '', 'employer': '', 'position': ''}, {'title': 'Strategically Counsel Clients and Potential Clients on legal matters', 'client': '', 'employer': '', 'position': ''}, {'title': 'Create Memos or Reports for Sentencing and Court Hearings', 'client': '', 'employer': '', 'position': ''}, {'title': 'Drafting Agreement, Power of Attorney, Affidavit, Reports, Deeds, Legal Notice, Etc.', 'client': '', 'employer': '', 'position': ''}]}
+2025-04-04 17:03:09 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf------------------------------------
+
+
+2025-04-04 17:03:54 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 17:04:12 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B.', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}]}
+2025-04-04 17:05:36 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Penny', 'Middle_Name': '', 'Last_Name': 'Ticku'}, 'education': [{'QUALIFICATION_LEVEL': 'B.A.LL.B.', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2018-23', 'GRADE': 'Aggregate: 74%'}, {'QUALIFICATION_LEVEL': 'LL.M. (Business Law)', 'INSTITUTE_NAME': 'University of Rajasthan, Jaipur', 'YEAR OF PASSING': '2024', 'GRADE': ''}, {'QUALIFICATION_LEVEL': '12th Class', 'INSTITUTE_NAME': 'Bright Future Sr. Sec. School, Jaipur - RBSE', 'YEAR OF PASSING': '2017', 'GRADE': '83.60%'}], 'experience': [{'designation': 'Junior Advocate', 'company': 'Rajasthan High Court, Jaipur', 'from_date': 'August 2023', 'to_date': 'Till Date'}, {'designation': 'Intern', 'company': 'Advocate Devendra Mohan Mathur', 'from_date': 'February 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Rajasthan Legal Service Authority (RLSA)', 'from_date': 'July 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Pramod Sharma', 'from_date': 'August 2019', 'to_date': ''}, {'designation': 'Intern', 'company': 'Advocate Satendra Kumar Gupta (AAG)', 'from_date': 'September 2019', 'to_date': ''}], 'project': [{'title': 'Internship under Advocate Devendra Mohan Mathur', 'client': '', 'employer': '', 'position': ''}, {'title': 'Internship at Rajasthan Legal Service Authority (RLSA)', 'client': '', 'employer': '', 'position': ''}, {'title': 'Internship under Advocate Pramod Sharma', 'client': '', 'employer': '', 'position': ''}, {'title': 'Internship under Advocate Satendra Kumar Gupta (AAG)', 'client': '', 'employer': '', 'position': ''}, {'title': 'Junior Advocate at Rajasthan High Court, Jaipur', 'client': 'Rajasthan High Court, Jaipur', 'employer': 'Under Advocate D. K. Bhardwaj', 'position': ''}, {'title': 'UFYLC International Model United Nations', 'client': 'University of Five-Year Law College, Rajasthan University', 'employer': '', 'position': ''}, {'title': '8th FYLC Inter- Semester Moot Court Competition', 'client': 'University of Five Year Law College, University of Rajasthan and Dainik Navajyoti Group', 'employer': '', 'position': ''}, {'title': 'National Criminal Justice Conference', 'client': 'RLSA, The UFYLC, Jaipur', 'employer': '', 'position': ''}, {'title': 'Debate Competitions', 'client': 'University of Five-Year Law College, Rajasthan University', 'employer': '', 'position': ''}]}
+2025-04-04 17:11:51 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/2_Final CV_Yadava Gangadhara Rao.docx------------------------------------
+
+
+2025-04-04 17:13:21 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 17:13:43 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Dharmendra', 'Middle_Name': 'Kumar', 'Last_Name': 'Mishra'}, 'education': [{'QUALIFICATION_LEVEL': 'Degree not specified', 'INSTITUTE_NAME': 'Not specified', 'YEAR OF PASSING': 'Not specified', 'GRADE': 'Not specified'}]}
+2025-04-04 17:57:53 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Dharmendra', 'Middle_Name': 'Kumar', 'Last_Name': 'Mishra'}, 'education': [{'QUALIFICATION_LEVEL': 'Degree not specified', 'INSTITUTE_NAME': 'Not specified', 'YEAR OF PASSING': 'Not specified', 'GRADE': 'Not specified'}], 'experience': [{'designation': 'Senior Project Manager', 'company': 'XYZ Corporation', 'from_date': '6 years', 'to_date': 'Dec 2023)'}, {'designation': 'Project Manager', 'company': 'ABC Inc.', 'from_date': '3 years', 'to_date': 'Dec 2022)'}, {'designation': 'Technical Lead', 'company': ' DEF Consulting', 'from_date': '2 years', 'to_date': 'Jun 2021)'}, {'designation': 'Team Lead', 'company': 'GHI Development', 'from_date': '1 year', 'to_date': 'Mar 2019)'}]}
+2025-04-04 17:58:06 - ISTLogger_model_logger - INFO - -----------------------------The file path is /home/nitinyadav/Music/testing/MonalisaParhi[3_5].pdf------------------------------------
+
+
+2025-04-04 17:58:59 - ISTLogger_model_logger - INFO - The model returned the status code of 200
+2025-04-04 18:00:06 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Monalisa', 'Middle_Name': '', 'Last_Name': 'Parhi'}, 'education': [{'QUALIFICATION_LEVEL': 'MBA (HR and Marketing)', 'INSTITUTE_NAME': 'Meerut University (Rajasthan)', 'YEAR OF PASSING': 2014, 'GRADE': '7.49 cgpa'}, {'QUALIFICATION_LEVEL': 'B. Tech (CSE)', 'INSTITUTE_NAME': 'Rajasthan Technical University', 'YEAR OF PASSING': 2009, 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'HSC (PCM with IT)', 'INSTITUTE_NAME': 'Army Public School', 'YEAR OF PASSING': 2007, 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'SSC', 'INSTITUTE_NAME': 'Army Public School', 'YEAR OF PASSING': '', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'Bachelor of Science', 'INSTITUTE_NAME': 'Army B. Tech', 'YEAR OF PASSING': '', 'GRADE': ''}]}
+2025-04-04 18:01:53 - ISTLogger_model_logger - INFO - Extracted structured data: {'basic_detail': {'First_Name': 'Monalisa', 'Middle_Name': '', 'Last_Name': 'Parhi'}, 'education': [{'QUALIFICATION_LEVEL': 'MBA (HR and Marketing)', 'INSTITUTE_NAME': 'Meerut University (Rajasthan)', 'YEAR OF PASSING': 2014, 'GRADE': '7.49 cgpa'}, {'QUALIFICATION_LEVEL': 'B. Tech (CSE)', 'INSTITUTE_NAME': 'Rajasthan Technical University', 'YEAR OF PASSING': 2009, 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'HSC (PCM with IT)', 'INSTITUTE_NAME': 'Army Public School', 'YEAR OF PASSING': 2007, 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'SSC', 'INSTITUTE_NAME': 'Army Public School', 'YEAR OF PASSING': '', 'GRADE': ''}, {'QUALIFICATION_LEVEL': 'Bachelor of Science', 'INSTITUTE_NAME': 'Army B. Tech', 'YEAR OF PASSING': '', 'GRADE': ''}], 'experience': [{'designation': 'HR – Executive', 'company': 'GCL Securities Pvt. Ltd.', 'from_date': 'April 2016', 'to_date': 'till date'}, {'designation': 'Billing – Executive', 'company': 'WIPL (Web Spiders Interweb Pvt. Ltd.)', 'from_date': 'Nov 2013', 'to_date': 'Aug 2014'}], 'project': [{'title': 'HR Help Desk Activities', 'client': '', 'employer': 'GCL Securities Pvt. Ltd.', 'position': 'HR Executive'}, {'title': 'Employee Engagement Initiatives', 'client': '', 'employer': 'GCL Securities Pvt. Ltd.', 'position': 'HR Executive'}, {'title': 'Training & Development Initiatives', 'client': '', 'employer': 'GCL Securities Pvt. Ltd.', 'position': 'HR Executive'}, {'title': 'Vendor Management', 'client': '', 'employer': 'GCL Securities Pvt. Ltd.', 'position': 'HR Executive'}, {'title': 'Reference Checks & Joining Exit Formalities', 'client': '', 'employer': 'GCL Securities Pvt. Ltd.', 'position': 'HR Executive'}, {'title': 'Payroll Processing', 'client': '', 'employer': 'GCL Securities Pvt. Ltd.', 'position': 'HR Executive'}]}

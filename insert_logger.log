@@ -1,0 +1,1475 @@
+2025-04-01 11:55:05 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 11:55:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 11:55:10 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 11:55:57 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 11:56:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 11:56:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 11:56:31 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 11:56:44 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 11:56:44 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 11:56:46 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-01 11:58:17 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.docx'
+2025-04-01 11:58:40 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 11:58:41 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 11:58:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf
+2025-04-01 12:18:23 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:18:24 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:18:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 12:18:31 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 12:18:50 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:18:51 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:18:53 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 12:19:02 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:19:02 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:19:02 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-01 12:24:55 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.docx'
+2025-04-01 12:25:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:25:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:25:27 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 12:28:56 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-01 12:28:56 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.docx'
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:28:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf
+2025-04-01 12:30:10 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf-------------------------------
+
+
+2025-04-01 12:30:28 - ISTLogger_insert_logger - ERROR - exception in the basic detail insert
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/insert_data.py", line 46, in basi_data_insert
+    if email!='':
+UnboundLocalError: local variable 'email' referenced before assignment
+2025-04-01 12:30:30 - ISTLogger_insert_logger - INFO - The candid id is None
+2025-04-01 12:40:40 - ISTLogger_insert_logger - INFO - This cv already exist in the database
+2025-04-01 12:40:40 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:40:40 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:40:40 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/Abhishek - ABE.pdf
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 12:41:18 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-01 12:41:18 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.docx'
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:41:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf
+2025-04-01 12:52:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:52:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:52:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 12:52:57 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 12:52:57 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:52:57 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:52:57 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 12:52:57 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 12:52:57 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 12:52:57 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-01 14:46:30 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 14:46:30 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 14:46:30 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 14:46:47 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 14:47:10 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 14:47:10 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 14:47:10 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 14:52:02 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx-------------------------------
+
+
+2025-04-01 14:52:03 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-01 14:52:04 - ISTLogger_insert_logger - INFO - The candid id is 1
+2025-04-01 14:52:14 - ISTLogger_insert_logger - ERROR - erro in the education docx format checker function
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 132, in education_docx_format_cheker
+    match=re.search(z.lower(),y.lower())
+  File "/usr/lib/python3.8/re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+  File "/usr/lib/python3.8/re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.8/sre_parse.py", line 525, in _parse
+    code = _escape(source, this, state)
+  File "/usr/lib/python3.8/sre_parse.py", line 426, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \c at position 6
+2025-04-01 14:52:14 - ISTLogger_insert_logger - ERROR - error in the education qual function
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 132, in education_docx_format_cheker
+    match=re.search(z.lower(),y.lower())
+  File "/usr/lib/python3.8/re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+  File "/usr/lib/python3.8/re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.8/sre_parse.py", line 525, in _parse
+    code = _escape(source, this, state)
+  File "/usr/lib/python3.8/sre_parse.py", line 426, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \c at position 6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 616, in qual
+    if qualifications[x][1]==qualifications[y][1]:
+IndexError: list index out of range
+2025-04-01 14:52:36 - ISTLogger_insert_logger - INFO - -----------------------The file path after reading is-/home/nitinyadav/Documents/files_for_server/read_file/1_3._Muppalla_Satish_Kumar_Senior_Quantity_cum_Material_Expert.docx--------------------------------------
+2025-04-01 14:52:36 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 14:52:37 - ISTLogger_insert_logger - INFO - inserted the keywords sucessfully
+2025-04-01 14:52:37 - ISTLogger_insert_logger - INFO - Inserted the adress sucessfully
+2025-04-01 14:52:37 - ISTLogger_insert_logger - ERROR - exception while gettind the educatation data 
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/insert_data.py", line 430, in education_insert
+    check_edu = Tbleducation.objects.using('table_db').filter(candidate_id = int(candid_id),qualification_id =edulevel_id,course_id = degree_id)
+UnboundLocalError: local variable 'degree_id' referenced before assignment
+2025-04-01 14:52:37 - ISTLogger_insert_logger - INFO - Inserted the education data sucessfully
+2025-04-01 14:52:37 - ISTLogger_insert_logger - ERROR - exception in the company detail insert
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/insert_data.py", line 490, in company_information_insert
+    from_.append(com['FROM DATE'])
+KeyError: 'FROM DATE'
+2025-04-01 14:52:37 - ISTLogger_insert_logger - INFO - Inserted the company data sucessfully
+2025-04-01 14:55:19 - ISTLogger_insert_logger - INFO - Insered the project data sucessfully
+
+
+2025-04-01 14:55:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 14:55:44 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 14:55:46 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 14:55:46 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 14:55:46 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 14:55:46 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-01 15:03:07 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc-------------------------------
+
+
+2025-04-01 15:03:07 - ISTLogger_insert_logger - ERROR - exception in the basic detail insert
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/insert_data.py", line 46, in basi_data_insert
+    if email!='':
+UnboundLocalError: local variable 'email' referenced before assignment
+2025-04-01 15:03:07 - ISTLogger_insert_logger - INFO - The candid id is None
+2025-04-01 15:03:07 - ISTLogger_insert_logger - INFO - This cv already exist in the database
+2025-04-01 15:03:10 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:03:10 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:03:10 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/AKSHAT SONI.pdf
+2025-04-01 15:46:36 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:46:36 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:46:36 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 15:46:36 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:46:36 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:46:36 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 15:46:51 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 15:46:54 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:46:54 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:46:54 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 16:16:43 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:16:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 16:21:37 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:21:37 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 16:25:28 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:25:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 16:29:06 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:29:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx#
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 16:39:11 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:39:11 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx#
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 16:57:29 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 16:57:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.docx#
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 17:03:16 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/Ahmed Waheed_original.pdf
+2025-04-02 12:25:51 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 12:25:51 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 12:25:51 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/Ahmed Waheed_original.pdf
+2025-04-02 12:28:14 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/Ahmed Waheed_original.pdf-------------------------------
+
+
+2025-04-02 12:28:14 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-02 12:28:14 - ISTLogger_insert_logger - INFO - The candid id is 1
+2025-04-02 12:28:18 - ISTLogger_insert_logger - INFO - -----------------------The file path after reading is-/home/nitinyadav/Documents/files_for_server/read_file/1_Ahmed_Waheed_original.pdf--------------------------------------
+2025-04-02 12:28:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/Ahmed Waheed_original.pdf
+2025-04-02 12:28:19 - ISTLogger_insert_logger - INFO - inserted the keywords sucessfully
+2025-04-02 12:28:19 - ISTLogger_insert_logger - INFO - Inserted the adress sucessfully
+2025-04-02 12:28:19 - ISTLogger_insert_logger - INFO - Inserted the education data sucessfully
+2025-04-02 12:28:19 - ISTLogger_insert_logger - INFO - Inserted the company data sucessfully
+2025-04-02 14:15:27 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 14:15:27 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 14:15:27 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 14:51:36 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 14:51:36 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 14:51:36 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 15:02:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 15:02:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 15:02:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf
+2025-04-02 15:12:03 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf-------------------------------
+
+
+2025-04-02 15:12:03 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-02 15:12:03 - ISTLogger_insert_logger - INFO - The candid id is 3
+2025-04-02 15:42:39 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 15:42:39 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 15:42:39 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf
+2025-04-03 09:23:34 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 09:23:34 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 09:23:34 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf
+2025-04-03 09:27:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 09:27:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 09:27:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf
+2025-04-03 10:04:05 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 10:04:05 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 10:04:05 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/1 TL Pramod Kumar Jain_Final.docx
+2025-04-03 10:06:34 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 10:06:34 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 10:06:34 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf
+2025-04-03 10:18:10 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 13, in model_data
+    files = [('file', (f'{pdf_name}', open(pdf_path, 'rb'), 'application/octet-stream'))]
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/K-8_Environmental, Health and Safety Specialist_Luis Domingos_signed.pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 195, in model_data
+    return empy_data
+UnboundLocalError: local variable 'empy_data' referenced before assignment
+2025-04-03 10:19:34 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 10:19:34 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 10:19:34 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx
+2025-04-03 15:30:47 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:30:47 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:30:47 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx
+2025-04-03 15:34:37 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:34:37 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:34:37 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx
+2025-04-03 15:35:38 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx-------------------------------
+
+
+2025-04-03 15:35:38 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-03 15:35:38 - ISTLogger_insert_logger - INFO - The candid id is 4
+2025-04-03 15:35:39 - ISTLogger_insert_logger - ERROR - erro in the education docx format checker function
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 132, in education_docx_format_cheker
+    match=re.search(z.lower(),y.lower())
+  File "/usr/lib/python3.8/re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+  File "/usr/lib/python3.8/re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.8/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.8/sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.8/sre_parse.py", line 525, in _parse
+    code = _escape(source, this, state)
+  File "/usr/lib/python3.8/sre_parse.py", line 426, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \c at position 6
+2025-04-03 15:35:41 - ISTLogger_insert_logger - INFO - -----------------------The file path after reading is-/home/nitinyadav/Documents/files_for_server/read_file/4_1._Team_Leader_T_Haribabu_Final.docx--------------------------------------
+2025-04-03 15:35:41 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/1. Team Leader_T Haribabu_Final.docx
+2025-04-03 15:35:41 - ISTLogger_insert_logger - INFO - inserted the keywords sucessfully
+2025-04-03 15:35:41 - ISTLogger_insert_logger - INFO - Inserted the adress sucessfully
+2025-04-03 15:35:41 - ISTLogger_insert_logger - INFO - Inserted the education data sucessfully
+2025-04-03 15:35:41 - ISTLogger_insert_logger - ERROR - exception in the company detail insert
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/insert_data.py", line 491, in company_information_insert
+    to_.append(com['TO DATE'])
+KeyError: 'TO DATE'
+2025-04-03 15:35:41 - ISTLogger_insert_logger - INFO - Inserted the company data sucessfully
+2025-04-03 15:35:43 - ISTLogger_insert_logger - INFO - Insered the project data sucessfully
+
+
+2025-04-03 15:41:14 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:41:14 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:41:14 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 15:46:58 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:46:58 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:46:58 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 15:49:02 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:49:02 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:49:02 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 15:49:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:49:43 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:49:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 15:50:37 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:50:37 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:50:37 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 15:53:42 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 15:53:42 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 15:53:42 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 16:01:07 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf-------------------------------
+
+
+2025-04-03 16:01:07 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-03 16:01:07 - ISTLogger_insert_logger - INFO - The candid id is 5
+2025-04-03 16:01:24 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 16:01:24 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 16:01:24 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 16:18:07 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 16:18:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 16:18:07 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf
+2025-04-03 16:22:22 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-1 Team Leader Senior Highway Engineer-Rakesh Ranjan.pdf-------------------------------
+
+
+2025-04-03 16:22:22 - ISTLogger_insert_logger - INFO - The candid id is None
+2025-04-03 16:22:22 - ISTLogger_insert_logger - INFO - This cv already exist in the database
+2025-04-03 16:22:22 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 16:22:22 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 16:22:22 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-10_Social and GBV Specialist_Pauline Ngetaa Ikumi.pdf
+2025-04-03 16:55:51 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-10_Social and GBV Specialist_Pauline Ngetaa Ikumi.pdf-------------------------------
+
+
+2025-04-03 16:55:51 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-03 16:55:51 - ISTLogger_insert_logger - INFO - The candid id is 6
+2025-04-03 16:56:00 - ISTLogger_insert_logger - ERROR - error in the education qual function
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 616, in qual
+    if qualifications[x][1]==qualifications[y][1]:
+IndexError: list index out of range
+2025-04-03 16:56:26 - ISTLogger_insert_logger - INFO - -----------------------The file path after reading is-/home/nitinyadav/Documents/files_for_server/read_file/6_K-10_Social_and_GBV_Specialist_Pauline_Ngetaa_Ikumi.pdf--------------------------------------
+2025-04-03 16:56:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-10_Social and GBV Specialist_Pauline Ngetaa Ikumi.pdf
+2025-04-03 16:56:26 - ISTLogger_insert_logger - INFO - inserted the keywords sucessfully
+2025-04-03 16:56:26 - ISTLogger_insert_logger - INFO - Inserted the adress sucessfully
+2025-04-03 16:56:26 - ISTLogger_insert_logger - ERROR - exception while gettind the educatation data 
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/insert_data.py", line 430, in education_insert
+    check_edu = Tbleducation.objects.using('table_db').filter(candidate_id = int(candid_id),qualification_id =edulevel_id,course_id = degree_id)
+UnboundLocalError: local variable 'degree_id' referenced before assignment
+2025-04-03 16:56:26 - ISTLogger_insert_logger - INFO - Inserted the education data sucessfully
+2025-04-03 16:56:26 - ISTLogger_insert_logger - INFO - Inserted the company data sucessfully
+2025-04-03 16:56:28 - ISTLogger_insert_logger - INFO - Insered the project data sucessfully
+
+
+2025-04-03 16:56:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 16:56:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 16:56:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-11-Senior Resettlement Specialist_Nitin Sithole.pdf
+2025-04-03 16:59:23 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-11-Senior Resettlement Specialist_Nitin Sithole.pdf-------------------------------
+
+
+2025-04-03 16:59:23 - ISTLogger_insert_logger - INFO - The candid id is None
+2025-04-03 16:59:23 - ISTLogger_insert_logger - INFO - This cv already exist in the database
+2025-04-03 16:59:23 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 16:59:23 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 16:59:23 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-03 17:01:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:01:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:01:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-03 17:22:33 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:22:33 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:22:33 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-03 17:28:20 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:28:20 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:28:20 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-03 17:35:29 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:35:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:35:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 17:40:21 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf-------------------------------
+
+
+2025-04-03 17:40:21 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-03 17:40:21 - ISTLogger_insert_logger - INFO - The candid id is 7
+2025-04-03 17:40:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:40:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:40:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:40:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:40:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 17:40:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 17:41:09 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:41:09 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:41:09 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 17:46:45 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 17:47:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 17:47:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 17:47:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 17:58:33 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 18:01:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 18:01:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 18:01:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 18:05:27 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 21:51:01 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 21:51:01 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 21:51:01 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 22:12:07 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 22:16:05 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 22:16:05 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 22:16:05 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 22:17:30 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 22:18:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 22:18:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 22:18:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 22:27:13 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 22:27:23 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 22:27:23 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 22:27:23 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 22:30:38 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 22:31:03 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 22:31:03 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 22:31:03 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 22:35:20 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-03 22:35:32 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-03 22:35:32 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-03 22:35:32 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-2 Transport-Economist-Sadia Beshir Mohammed.pdf
+2025-04-03 22:39:42 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 09:15:47 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 09:15:47 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 09:15:47 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 09:15:55 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 09:16:29 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 09:16:29 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 09:16:29 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 09:16:42 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 09:17:10 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 09:17:10 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 09:17:10 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 09:23:09 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:04:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:04:43 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:04:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:06:53 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:07:16 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:07:16 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:07:16 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:15:55 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:25:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:25:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:25:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:31:14 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:32:05 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:32:05 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:32:05 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:34:32 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:35:32 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:35:32 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:35:32 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:37:59 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:38:17 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:38:17 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:38:17 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:46:11 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:47:50 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:47:50 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:47:50 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:48:10 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 52, in model_data
+    name_value = text["name"]
+TypeError: string indices must be integers
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 139, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 10:48:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:48:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:48:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:49:20 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 52, in model_data
+    name_value = text["name"]
+TypeError: string indices must be integers
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 139, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 10:49:30 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:49:30 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:49:30 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:52:18 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:54:01 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:54:01 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:54:01 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 10:58:03 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 10:58:33 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 10:58:33 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 10:58:33 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:02:46 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:02:56 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:02:56 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:02:56 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:11:05 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:11:16 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:11:16 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:11:16 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:11:33 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 111, in model_data
+    education_json = extract_all_json_blocks(education_value)
+TypeError: extract_all_json_blocks() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 155, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:11:48 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:11:48 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:11:48 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:13:29 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 111, in model_data
+    education_json = extract_all_json_blocks(education_value)
+TypeError: extract_all_json_blocks() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 155, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:13:38 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:13:38 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:13:38 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:14:03 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 124, in model_data
+    experience_json = extract_all_json_blocks(experience_value)
+TypeError: extract_all_json_blocks() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 155, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:14:19 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:14:19 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:14:19 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:14:28 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 115, in model_data
+    education["education"] = education_json.get("education", [])
+AttributeError: 'list' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 155, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:14:41 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:14:41 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:14:41 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:16:38 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 115, in model_data
+    education["education"] = education_json.get("education", [])
+AttributeError: 'list' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 155, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:16:47 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:16:47 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:16:47 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:19:21 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 124, in model_data
+    experience_json = extract_all_json_blocks(experience_value)
+TypeError: extract_all_json_blocks() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 155, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:19:31 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:19:31 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:19:31 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:20:13 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 119, in model_data
+    education_json = extract_all_json_blocks(education_value, "education")
+NameError: name 'extract_all_json_blocks' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 163, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:20:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:20:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:20:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:23:56 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 132, in model_data
+    experience_json = extract_structured_data(experience_value)
+TypeError: extract_structured_data() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 163, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:24:25 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:24:25 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:24:25 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:25:40 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 134, in model_data
+    experience_json = extract_structured_data(experience_value)
+TypeError: extract_structured_data() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 165, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:26:09 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:26:09 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:26:09 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:34:19 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 134, in model_data
+    if citizenship:
+TypeError: extract_structured_data() missing 1 required positional argument: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 165, in model_data
+    project_value = text["project"]
+NameError: name 'empy_data' is not defined
+2025-04-04 11:34:30 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:34:30 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:34:30 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:37:27 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 186, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:37:41 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:37:41 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:37:41 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-6 Hydrologist_Esmael Endris Hassen-.pdf
+2025-04-04 11:44:20 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 166, in model_data
+    project_json = extract_json_from_text(project_value)
+NameError: name 'extract_json_from_text' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 185, in genview
+    data_from_model=model_data(file_path,logger_model)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/get_data_model.py", line 186, in model_data
+    return empy_data
+NameError: name 'empy_data' is not defined
+2025-04-04 11:44:38 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:44:38 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:44:38 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2 Final CV_ GC Mathur_Sr Highway cum Road Safety Er.docx
+2025-04-04 11:47:46 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:48:04 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:48:04 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:48:04 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2 Final CV_ GC Mathur_Sr Highway cum Road Safety Er.docx
+2025-04-04 11:53:49 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:54:03 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:54:03 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:54:03 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 11:56:22 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:56:33 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:56:33 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:56:33 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 11:57:34 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:57:43 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:57:43 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:57:43 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 11:57:45 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:57:45 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:57:45 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:57:45 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:57:45 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 11:57:45 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 11:58:47 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:58:47 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:58:47 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:58:47 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 11:59:03 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 11:59:03 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 11:59:03 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:05:00 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:05:11 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:05:11 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:05:11 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:08:57 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:09:07 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:09:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:09:07 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:11:37 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:11:51 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:11:51 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:11:51 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:17:09 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:17:34 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:17:34 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:17:34 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:23:22 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:23:38 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:23:38 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:23:38 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:24:57 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:25:26 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:25:26 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:25:26 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:27:39 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:27:52 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:27:52 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:27:52 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:43:31 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:43:40 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:43:40 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:43:40 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:46:48 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:47:33 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:47:33 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:47:33 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 12:54:08 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 12:54:20 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 12:54:20 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 12:54:20 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:14:42 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:15:02 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:15:02 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:15:02 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:22:03 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:23:00 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:23:00 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:23:00 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:24:34 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:24:42 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:24:42 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:24:42 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:25:35 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:26:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:26:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:26:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:28:43 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:28:52 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:28:52 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:28:52 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:37:34 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:38:27 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:38:27 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:38:27 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:40:41 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:40:53 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:40:53 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:40:53 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:42:01 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:42:11 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:42:11 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:42:11 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:43:11 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:43:22 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:43:22 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:43:22 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:46:04 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:52:09 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:52:09 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:52:09 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:55:25 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:55:35 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:55:35 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:55:35 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 14:58:08 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 14:58:22 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 14:58:22 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 14:58:22 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:02:44 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:03:24 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:03:24 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:03:24 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:07:08 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:07:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:07:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:07:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:09:12 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:09:25 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:09:25 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:09:25 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:09:57 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:09:57 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:09:57 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:24:41 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:24:52 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:24:52 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:24:52 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:26:06 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:26:18 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:26:18 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:26:18 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:30:25 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:33:03 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:33:03 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:33:03 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Adarsh Kumar Tiwari.pdf
+2025-04-04 15:40:33 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:40:33 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:40:33 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:40:45 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:40:45 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:40:45 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:43:21 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:43:37 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:43:37 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:43:37 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:51:27 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:51:27 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:51:27 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 15:57:48 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 15:58:15 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 15:58:15 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 15:58:15 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:05:10 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:05:28 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:05:28 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:05:28 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:12:41 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:13:21 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:13:21 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:13:21 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:15:38 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:15:48 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:15:48 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:15:48 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:19:55 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:20:07 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:20:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:20:07 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:21:34 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:21:50 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:21:50 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:21:50 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:26:37 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:26:53 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:26:53 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:26:53 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:34:02 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:35:27 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:35:27 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:35:27 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:53:54 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:54:04 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:54:04 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:54:04 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:55:32 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:56:20 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:56:20 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:56:20 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 16:58:47 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 16:59:04 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 16:59:04 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 16:59:04 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 17:00:18 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 17:00:30 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 17:00:30 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 17:00:30 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 17:02:57 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 17:03:08 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 17:03:08 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 17:03:08 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2Updated CV Penny Ticku.pdf
+2025-04-04 17:05:36 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 17:11:51 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 17:11:51 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 17:11:51 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/2_Final CV_Yadava Gangadhara Rao.docx
+2025-04-04 17:57:53 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined
+2025-04-04 17:58:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-04 17:58:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-04 17:58:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/MonalisaParhi[3_5].pdf
+2025-04-04 18:03:32 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 188, in genview
+    b_data = resumeparser.basic_details(preprocessed)
+NameError: name 'preprocessed' is not defined

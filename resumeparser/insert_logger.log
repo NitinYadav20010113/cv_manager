@@ -1,0 +1,102 @@
+2025-04-01 15:45:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/.~lock.3_Satyapal_Srivastava-RE-New_1_.doc#
+2025-04-01 15:45:06 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:06 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:06 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3. Muppalla Satish Kumar_Senior Quantity cum Material Expert.doc
+2025-04-01 15:45:07 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 179, in genview
+    preprocessed = Textgenerator.file2txt(file_path ,directory_path)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/File_to_text_converter.py", line 53, in file2txt
+    text = docx2txt.process(docx_path)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/docx2txt/docx2txt.py", line 76, in process
+    zipf = zipfile.ZipFile(docx)
+  File "/usr/lib/python3.8/zipfile.py", line 1253, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/3.docx'
+2025-04-01 15:45:07 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:07 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/352652.JPG
+2025-04-01 15:45:07 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-01 15:45:07 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/3_Satyapal_Srivastava-RE-New_1_.doc
+2025-04-02 14:56:07 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 14:56:07 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 14:56:07 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 14:56:08 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 14:56:08 - ISTLogger_insert_logger - INFO - ---------------------------------------------------------------------------------------------------------
+2025-04-02 14:56:08 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 14:56:08 - ISTLogger_insert_logger - INFO - --------------------------------------------------------------------------------------------------------
+2025-04-02 14:56:08 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 14:56:08 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 14:58:49 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf-------------------------------
+
+
+2025-04-02 14:58:49 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf-------------------------------
+
+
+2025-04-02 14:58:49 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-02 14:58:49 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-02 14:58:49 - ISTLogger_insert_logger - INFO - The candid id is 2
+2025-04-02 14:58:49 - ISTLogger_insert_logger - INFO - The candid id is 2
+2025-04-02 14:58:51 - ISTLogger_insert_logger - ERROR - erroe in the education qual function
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 673, in qual
+    if tex!='':
+UnboundLocalError: local variable 'tex' referenced before assignment
+2025-04-02 14:58:51 - ISTLogger_insert_logger - ERROR - erroe in the education qual function
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 673, in qual
+    if tex!='':
+UnboundLocalError: local variable 'tex' referenced before assignment
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - -----------------------The file path after reading is-/home/nitinyadav/Documents/files_for_server/read_file/2_K-12_Surveyor_-_Jose_Monteiro.pdf--------------------------------------
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - -----------------------The file path after reading is-/home/nitinyadav/Documents/files_for_server/read_file/2_K-12_Surveyor_-_Jose_Monteiro.pdf--------------------------------------
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - inserted the keywords sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - inserted the keywords sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - Inserted the adress sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - Inserted the adress sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - Inserted the education data sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - Inserted the education data sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - Inserted the company data sucessfully
+2025-04-02 14:58:54 - ISTLogger_insert_logger - INFO - Inserted the company data sucessfully
+2025-04-02 14:58:55 - ISTLogger_insert_logger - INFO - Insered the project data sucessfully
+
+
+2025-04-02 14:58:55 - ISTLogger_insert_logger - INFO - Insered the project data sucessfully
+
+
+2025-04-02 15:00:22 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf-------------------------------
+
+
+2025-04-02 15:00:22 - ISTLogger_insert_logger - INFO - ------------------------The file path is /home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf-------------------------------
+
+
+2025-04-02 15:00:22 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-02 15:00:22 - ISTLogger_insert_logger - INFO - Inserted the basic details sucessfully
+2025-04-02 15:00:22 - ISTLogger_insert_logger - INFO - The candid id is 2
+2025-04-02 15:00:22 - ISTLogger_insert_logger - INFO - The candid id is 2
+2025-04-02 15:00:22 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 208, in genview
+    qual_data=Education1.education_format_checker(institute_names,university_names,file_path,preprocessed,logger)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 99, in education_format_checker
+    return Education1.education_pdf_format_checker(institute_names,university_names,path,text,logger)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 313, in education_pdf_format_checker
+    pdf=pdfplumber.open(filename)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/pdfplumber/pdf.py", line 55, in open
+    fp = open(path_or_fp, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf'
+2025-04-02 15:00:22 - ISTLogger_insert_logger - ERROR - execption in themain exception block
+Traceback (most recent call last):
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/views.py", line 208, in genview
+    qual_data=Education1.education_format_checker(institute_names,university_names,file_path,preprocessed,logger)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 99, in education_format_checker
+    return Education1.education_pdf_format_checker(institute_names,university_names,path,text,logger)
+  File "/home/nitinyadav/Documents/cv_manager/resumeparser/general/education.py", line 313, in education_pdf_format_checker
+    pdf=pdfplumber.open(filename)
+  File "/home/nitinyadav/Documents/cv_manager/venv/lib/python3.8/site-packages/pdfplumber/pdf.py", line 55, in open
+    fp = open(path_or_fp, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitinyadav/Music/testing/K-12_Surveyor - Jose Monteiro.pdf'

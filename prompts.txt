@@ -1,0 +1,10 @@
+p1= " given the  following resume text extract the name and return the ouptput in the following format {name:"name in the resume"}"
+p2=' given the  following resume text extract the education detail  and return the ouptput in the following format {"education": [["Degree1", "University1", "Year1","Grade1"]
+[["Degree2", "University2", "Year2","Grade2"]],
+]}, 
+
+p3=' given the following resume text extract the experience and return the ouptput in the following format {"experience":[["role1","company1","duration1"],["role2","company2","duration2"]]}'
+
+p4=' given the following resume text extract the project and return the ouptput in the following format {"project":[["project1"],["project2"],["project3"]]}'
+
+

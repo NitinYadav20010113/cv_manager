@@ -1,0 +1,30 @@
+body {
+  background-image: url("kamran.jpg");
+}
+
+
+ 
+.gfg {
+  font-size: 1.5vw;
+  color: azure;
+  background-image: url("pexels-philippe.jpg");
+  width: 20vw;
+  height: 35vh;
+  margin: 0.5vw
+}
+
+table {
+	width: 80vw;
+    margin-top: 15vh;
+    margin-left: 6vw;
+    margin-right: 7vw;
+	
+    
+}
+
+h1 {
+    color: #213b57d9;
+    margin-left: 6vw;
+    font-size: 7vh;
+
+}
